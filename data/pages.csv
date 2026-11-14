@@ -1,0 +1,271 @@
+source_id,pdf_page,extraction_status,raw_normalized_characters,working_corpus_included,prepared_characters,section,counted_toward_minimum,reviewer,selection_or_review_reason
+roshidere-vol10,1,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,2,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,3,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,4,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,5,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,6,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,7,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,8,ok,1059,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,9,ok,754,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,10,ok,1755,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,11,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,12,empty,0,False,0,,False,,No extractable text
+roshidere-vol10,13,ok,729,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,14,ok,1311,True,1286,prologue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,15,ok,1971,True,1946,prologue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,16,ok,1420,True,1395,prologue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,17,ok,1181,True,1156,prologue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,18,ok,43,False,0,prologue,False,,no_prose_after_footer_removal
+roshidere-vol10,19,ok,589,False,0,prologue,False,,standalone_translator_note_page
+roshidere-vol10,20,ok,1463,True,1438,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,21,ok,1745,True,1720,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,22,ok,1683,True,1658,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,23,ok,1797,True,1772,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,24,ok,1707,True,1682,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,25,ok,1584,True,1559,chapter_1,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,26,ok,1745,True,1720,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,27,ok,1532,True,1507,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,28,ok,1551,True,1526,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,29,ok,1814,True,1789,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,30,ok,1751,True,1726,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,31,ok,1754,True,1729,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,32,ok,1452,True,1427,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,33,ok,1473,True,1448,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,34,ok,1422,True,1397,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,35,ok,1610,True,1585,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,36,ok,161,True,136,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,37,ok,23,False,0,chapter_1,False,,no_prose_after_footer_removal
+roshidere-vol10,38,ok,1570,True,1545,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,39,ok,1464,True,1439,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,40,ok,736,True,711,chapter_1,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,41,ok,1873,False,0,chapter_1,False,,standalone_translator_note_page
+roshidere-vol10,42,ok,1308,True,1283,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,43,ok,1648,True,1623,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,44,ok,1827,True,1802,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,45,ok,1361,True,1336,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,46,ok,1520,True,1495,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,47,ok,1446,True,1421,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,48,ok,1436,True,1411,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,49,ok,1264,True,1239,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,50,ok,1801,True,1776,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,51,ok,1413,True,1388,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,52,ok,1395,True,1370,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,53,ok,1417,True,1392,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,54,ok,1212,True,1187,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,55,ok,841,True,816,chapter_2,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,56,ok,23,False,0,chapter_2,False,,no_prose_after_footer_removal
+roshidere-vol10,57,ok,1295,True,1270,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,58,ok,1367,True,1342,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,59,ok,1855,True,1830,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,60,ok,1706,True,1681,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,61,ok,1991,True,1966,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,62,ok,1820,True,1795,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,63,ok,1839,True,1814,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,64,ok,1680,True,1655,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,65,ok,1476,True,1451,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,66,ok,1470,True,1445,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,67,ok,1637,True,1612,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,68,ok,1814,True,1789,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,69,ok,1284,True,1259,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,70,ok,1752,True,1727,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,71,ok,1944,True,1919,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,72,ok,1431,True,1406,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,73,ok,1948,True,1923,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,74,ok,1634,True,1609,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,75,ok,94,True,69,chapter_3,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,76,ok,399,False,0,chapter_3,False,,standalone_translator_note_page
+roshidere-vol10,77,ok,1329,True,1304,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,78,ok,1712,True,1687,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,79,ok,350,True,325,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,80,ok,23,False,0,chapter_4,False,,no_prose_after_footer_removal
+roshidere-vol10,81,ok,1641,True,1616,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,82,ok,1654,True,1629,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,83,ok,1848,True,1823,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,84,ok,1413,True,1388,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,85,ok,1694,True,1669,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,86,ok,1604,True,1579,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,87,ok,1529,True,1504,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,88,ok,1328,True,1303,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,89,ok,1307,True,1282,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,90,ok,480,True,455,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,91,ok,23,False,0,chapter_4,False,,no_prose_after_footer_removal
+roshidere-vol10,92,ok,1785,True,1760,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,93,ok,1879,True,1854,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,94,ok,1930,True,1905,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,95,ok,1807,True,1782,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,96,ok,1525,True,1500,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,97,ok,1615,True,1590,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,98,ok,1514,True,1489,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,99,ok,1480,True,1455,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,100,ok,1840,True,1814,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,101,ok,1809,True,1783,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,102,ok,1730,True,1704,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,103,ok,1648,True,1622,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,104,ok,1694,True,1668,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,105,ok,1575,True,1549,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,106,ok,1343,True,1317,chapter_4,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,107,ok,1789,True,1763,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,108,ok,1766,True,1740,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,109,ok,1201,True,1175,chapter_4,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,110,ok,224,False,0,chapter_4,False,,standalone_translator_note_page
+roshidere-vol10,111,ok,1625,True,1599,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,112,ok,1700,True,1674,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,113,ok,1876,True,1850,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,114,ok,1789,True,1763,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,115,ok,1911,True,1885,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,116,ok,1625,True,1599,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,117,ok,1851,True,1825,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,118,ok,1983,True,1957,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,119,ok,1662,True,1636,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,120,ok,1663,True,1637,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,121,ok,1539,True,1513,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,122,ok,1450,True,1424,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,123,ok,1636,True,1610,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,124,ok,1480,True,1454,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,125,ok,1747,True,1721,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,126,ok,1473,True,1447,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,127,ok,1872,True,1846,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,128,ok,1455,True,1429,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,129,ok,1467,True,1441,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,130,ok,1704,True,1678,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,131,ok,1414,True,1388,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,132,ok,1535,True,1509,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,133,ok,1603,True,1577,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,134,ok,717,True,691,chapter_5,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,135,ok,3452,False,0,chapter_5,False,,standalone_translator_note_page
+roshidere-vol10,136,ok,169,False,0,chapter_5,False,,standalone_translator_note_page
+roshidere-vol10,137,ok,938,True,912,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,138,ok,24,False,0,chapter_6,False,,no_prose_after_footer_removal
+roshidere-vol10,139,ok,1843,True,1817,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,140,ok,1239,True,1213,chapter_6,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,141,ok,1540,True,1514,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,142,ok,1525,True,1499,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,143,ok,1910,True,1884,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,144,ok,1826,True,1800,chapter_6,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,145,ok,1391,True,1365,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,146,ok,1883,True,1857,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,147,ok,1565,True,1539,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,148,ok,1567,True,1541,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,149,ok,1443,True,1417,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,150,ok,1318,True,1292,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,151,ok,1521,True,1495,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,152,ok,1572,True,1546,chapter_6,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,153,ok,1401,True,1375,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,154,ok,1926,True,1900,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,155,ok,1830,True,1804,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,156,ok,1793,True,1767,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,157,ok,1827,True,1801,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,158,ok,203,True,177,chapter_6,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,159,ok,214,False,0,chapter_6,False,,standalone_translator_note_page
+roshidere-vol10,160,ok,1492,True,1466,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,161,ok,1411,True,1385,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,162,ok,1651,True,1625,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,163,ok,1528,True,1502,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,164,ok,1875,True,1849,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,165,ok,1658,True,1632,chapter_7,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,166,ok,321,True,295,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,167,ok,24,False,0,chapter_7,False,,no_prose_after_footer_removal
+roshidere-vol10,168,ok,1856,True,1830,chapter_7,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,169,ok,1606,True,1580,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,170,ok,1698,True,1672,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,171,ok,1794,True,1768,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,172,ok,1918,True,1892,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,173,ok,1637,True,1611,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,174,ok,1759,True,1733,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,175,ok,353,True,327,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,176,ok,24,False,0,chapter_7,False,,no_prose_after_footer_removal
+roshidere-vol10,177,ok,1621,True,1595,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,178,ok,2325,True,2299,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,179,ok,1847,True,1821,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,180,ok,1754,True,1728,chapter_7,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,181,ok,1921,True,1895,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,182,ok,1823,True,1797,chapter_7,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,183,ok,1459,True,1433,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,184,ok,175,True,149,chapter_7,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,185,ok,1833,True,1807,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,186,ok,1265,True,1239,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,187,ok,2190,True,2164,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,188,ok,1435,True,1409,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,189,ok,1624,True,1598,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,190,ok,1871,True,1845,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,191,ok,2025,True,1999,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,192,ok,1830,True,1804,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,193,ok,1527,True,1501,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,194,ok,1677,True,1651,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,195,ok,1685,True,1659,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,196,ok,1762,True,1736,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,197,ok,1526,True,1500,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,198,ok,1111,True,1085,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,199,ok,376,True,350,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,200,ok,24,False,0,chapter_8,False,,no_prose_after_footer_removal
+roshidere-vol10,201,ok,1799,True,1773,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,202,ok,1490,True,1464,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,203,ok,1663,True,1637,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,204,ok,1575,True,1549,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,205,ok,1804,True,1778,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,206,ok,1948,True,1922,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,207,ok,1619,True,1593,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,208,ok,1518,True,1492,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,209,ok,1774,True,1748,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,210,ok,1619,True,1593,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,211,ok,1324,True,1298,chapter_8,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,212,ok,2124,False,0,chapter_8,False,,standalone_translator_note_page
+roshidere-vol10,213,ok,1622,True,1596,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,214,ok,1785,True,1759,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,215,ok,1977,True,1951,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,216,ok,1950,True,1924,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,217,ok,1416,True,1390,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,218,ok,1978,True,1952,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,219,ok,2015,True,1989,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,220,ok,1863,True,1837,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,221,ok,2364,True,2338,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,222,ok,1559,True,1533,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,223,ok,2029,True,2003,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,224,ok,1934,True,1908,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,225,ok,1940,True,1914,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,226,ok,1870,True,1844,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,227,ok,1918,True,1892,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,228,ok,1958,True,1932,chapter_9,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,229,ok,1921,True,1895,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,230,ok,1872,True,1846,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,231,ok,1155,True,1129,chapter_9,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,232,ok,857,False,0,chapter_9,False,,standalone_translator_note_page
+roshidere-vol10,233,ok,1058,True,1032,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,234,ok,1561,True,1535,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,235,ok,1632,True,1606,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,236,ok,1960,True,1934,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,237,ok,1279,True,1253,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,238,ok,1849,True,1823,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,239,ok,1398,True,1372,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,240,ok,24,False,0,chapter_10,False,,no_prose_after_footer_removal
+roshidere-vol10,241,ok,1552,True,1526,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,242,ok,1534,True,1508,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,243,ok,1972,True,1946,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,244,ok,2083,True,2057,chapter_10,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,245,ok,1911,True,1885,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,246,ok,1795,True,1769,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,247,ok,1717,True,1691,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,248,ok,1557,True,1531,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,249,ok,566,True,540,chapter_10,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,250,ok,1424,False,0,chapter_10,False,,standalone_translator_note_page
+roshidere-vol10,251,ok,1704,True,1678,epilogue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,252,ok,2285,True,2259,epilogue,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,253,ok,525,True,499,epilogue,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,254,ok,774,True,748,epilogue,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,255,ok,2209,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,256,ok,2244,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,257,ok,2777,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,258,ok,2599,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,259,ok,1610,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,260,ok,24,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,261,ok,898,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,262,ok,1604,True,1578,bonus_story,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,263,ok,1826,True,1800,bonus_story,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,264,ok,1597,True,1571,bonus_story,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,265,ok,1358,True,1332,bonus_story,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,266,ok,1702,True,1676,bonus_story,False,,Selected for working corpus; not claimed in the conservative 39-page reviewed minimum.
+roshidere-vol10,267,ok,1439,True,1413,bonus_story,True,Codex AI assistant,Relevant story narrative/dialogue checked against actual PDF; not front matter/contents/footer-only/standalone notes.
+roshidere-vol10,268,ok,1973,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,269,ok,884,False,0,,False,,outside_selected_story_sections
+roshidere-vol10,270,ok,830,False,0,,False,,outside_selected_story_sections

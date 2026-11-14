@@ -1,0 +1,89 @@
+{
+  "created_before_label_entry_utc": "2026-11-14T04:34:47.278827+00:00",
+  "reviewer": "Codex AI assistant",
+  "review_type": "explicit rubric-based AI-assisted content review",
+  "independent_human_review": false,
+  "bias": "Assistant implemented the pipeline and previously saw aggregate results and some failures. Scores and automatic evidence-hit flags are omitted from the audit case view; review is not fully blinded.",
+  "coherence_sampling": "First ten prepared PDF page IDs sorted ascending; midpoint character adjusted forward over whitespace; earliest-starting chunk that contains that location. Identical B/C chunks receive identical labels.",
+  "coherence_locations": [
+    {
+      "sample_id": "c01",
+      "pdf_page": 14,
+      "character_offset": 643
+    },
+    {
+      "sample_id": "c02",
+      "pdf_page": 15,
+      "character_offset": 973
+    },
+    {
+      "sample_id": "c03",
+      "pdf_page": 16,
+      "character_offset": 697
+    },
+    {
+      "sample_id": "c04",
+      "pdf_page": 17,
+      "character_offset": 578
+    },
+    {
+      "sample_id": "c05",
+      "pdf_page": 20,
+      "character_offset": 720
+    },
+    {
+      "sample_id": "c06",
+      "pdf_page": 21,
+      "character_offset": 860
+    },
+    {
+      "sample_id": "c07",
+      "pdf_page": 22,
+      "character_offset": 829
+    },
+    {
+      "sample_id": "c08",
+      "pdf_page": 23,
+      "character_offset": 886
+    },
+    {
+      "sample_id": "c09",
+      "pdf_page": 24,
+      "character_offset": 841
+    },
+    {
+      "sample_id": "c10",
+      "pdf_page": 25,
+      "character_offset": 779
+    }
+  ],
+  "coherence_scale": {
+    "0": "Fragmented or missing subject/context so the local idea cannot be understood",
+    "1": "Partly understandable but cut boundaries or missing context prevent a complete standalone idea",
+    "2": "Subject/action and complete local idea are understandable within the chunk"
+  },
+  "grounding_sampling": {
+    "original_test": "All five original test questions q16-q20, same questions for A/B/C",
+    "fresh_test_subset": "First five fresh holdout IDs h01-h05, same questions for C/F; supplementary comparison only"
+  },
+  "grounding_scale": {
+    "0": "No question-responsive supporting evidence",
+    "1": "Relevant partial evidence but a required fact, condition, identity, or link is missing",
+    "2": "Top-three passages jointly contain sufficient evidence and conditions to answer with source traceability"
+  },
+  "grounding_policy": "Review actual top-three text independently of strict full-quote scores. Multiple chunks and valid alternative source pages may jointly support an answer. Do not invent unavailable facts or assume missing conditions.",
+  "metadata_checks": [
+    "document_id/source identify the actual local PDF",
+    "physical page number and passage text match original PDF extraction",
+    "section matches verified PDF contents/section opening pages",
+    "character offsets match unchanged prepared page",
+    "explicit filter compliance checked separately from field correctness"
+  ],
+  "limitations": [
+    "No independent human judgment",
+    "First-ten-page coherence sample emphasizes early scenes",
+    "Only five grounding questions per strategy/cohort",
+    "Local file paths require a manifest/access instructions for another computer",
+    "Source permissions remain unverified"
+  ]
+}

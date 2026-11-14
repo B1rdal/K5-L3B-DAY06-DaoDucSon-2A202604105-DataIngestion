@@ -1,0 +1,27 @@
+{
+  "kind": "Database integrity smoke checks using stored vectors, not question benchmark results",
+  "embedding_recomputed": false,
+  "strategies": {
+    "A": {
+      "rows_before_reload": 865,
+      "rows_after_reload": 865,
+      "ids_unchanged": true,
+      "stored_vector_lookup_passed": true,
+      "section_filter_checked": false
+    },
+    "B": {
+      "rows_before_reload": 1012,
+      "rows_after_reload": 1012,
+      "ids_unchanged": true,
+      "stored_vector_lookup_passed": true,
+      "section_filter_checked": false
+    },
+    "C": {
+      "rows_before_reload": 1012,
+      "rows_after_reload": 1012,
+      "ids_unchanged": true,
+      "stored_vector_lookup_passed": true,
+      "section_filter_checked": true
+    }
+  }
+}

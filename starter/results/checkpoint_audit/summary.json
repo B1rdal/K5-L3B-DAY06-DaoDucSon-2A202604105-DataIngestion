@@ -1,0 +1,224 @@
+{
+  "reviewer_type": "AI_assistant",
+  "independent_human_review": false,
+  "status": "AI-assisted checkpoint audit complete; human validation pending",
+  "groups": [
+    {
+      "kind": "coherence",
+      "cohort": "shared_source_locations",
+      "strategy": "A",
+      "n": 10,
+      "sum": 10,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 10
+      }
+    },
+    {
+      "kind": "coherence",
+      "cohort": "shared_source_locations",
+      "strategy": "B",
+      "n": 10,
+      "sum": 11,
+      "mean": 1.1,
+      "score_counts": {
+        "2": 2,
+        "1": 7,
+        "0": 1
+      }
+    },
+    {
+      "kind": "coherence",
+      "cohort": "shared_source_locations",
+      "strategy": "C",
+      "n": 10,
+      "sum": 11,
+      "mean": 1.1,
+      "score_counts": {
+        "2": 2,
+        "1": 7,
+        "0": 1
+      }
+    },
+    {
+      "kind": "coherence",
+      "cohort": "shared_source_locations",
+      "strategy": "F",
+      "n": 10,
+      "sum": 17,
+      "mean": 1.7,
+      "score_counts": {
+        "2": 7,
+        "1": 3
+      }
+    },
+    {
+      "kind": "grounding",
+      "cohort": "fresh_test_subset",
+      "strategy": "C",
+      "n": 5,
+      "sum": 4,
+      "mean": 0.8,
+      "score_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "kind": "grounding",
+      "cohort": "fresh_test_subset",
+      "strategy": "F",
+      "n": 5,
+      "sum": 10,
+      "mean": 2.0,
+      "score_counts": {
+        "2": 5
+      }
+    },
+    {
+      "kind": "grounding",
+      "cohort": "original_test",
+      "strategy": "A",
+      "n": 5,
+      "sum": 8,
+      "mean": 1.6,
+      "score_counts": {
+        "2": 3,
+        "1": 2
+      }
+    },
+    {
+      "kind": "grounding",
+      "cohort": "original_test",
+      "strategy": "B",
+      "n": 5,
+      "sum": 8,
+      "mean": 1.6,
+      "score_counts": {
+        "2": 3,
+        "1": 2
+      }
+    },
+    {
+      "kind": "grounding",
+      "cohort": "original_test",
+      "strategy": "C",
+      "n": 5,
+      "sum": 9,
+      "mean": 1.8,
+      "score_counts": {
+        "2": 4,
+        "1": 1
+      }
+    },
+    {
+      "kind": "metadata",
+      "cohort": "fresh_test_subset",
+      "strategy": "C",
+      "n": 15,
+      "sum": 15,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 15
+      }
+    },
+    {
+      "kind": "metadata",
+      "cohort": "fresh_test_subset",
+      "strategy": "F",
+      "n": 15,
+      "sum": 15,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 15
+      }
+    },
+    {
+      "kind": "metadata",
+      "cohort": "original_test",
+      "strategy": "A",
+      "n": 15,
+      "sum": 15,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 15
+      }
+    },
+    {
+      "kind": "metadata",
+      "cohort": "original_test",
+      "strategy": "B",
+      "n": 15,
+      "sum": 15,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 15
+      }
+    },
+    {
+      "kind": "metadata",
+      "cohort": "original_test",
+      "strategy": "C",
+      "n": 15,
+      "sum": 15,
+      "mean": 1.0,
+      "score_counts": {
+        "1": 15
+      }
+    }
+  ],
+  "filter_compliance": [
+    {
+      "cohort": "fresh_test_subset",
+      "strategy": "C",
+      "compliant_questions": 1,
+      "filter_questions": 1
+    },
+    {
+      "cohort": "fresh_test_subset",
+      "strategy": "F",
+      "compliant_questions": 1,
+      "filter_questions": 1
+    },
+    {
+      "cohort": "original_test",
+      "strategy": "A",
+      "compliant_questions": 1,
+      "filter_questions": 2
+    },
+    {
+      "cohort": "original_test",
+      "strategy": "B",
+      "compliant_questions": 0,
+      "filter_questions": 2
+    },
+    {
+      "cohort": "original_test",
+      "strategy": "C",
+      "compliant_questions": 2,
+      "filter_questions": 2
+    }
+  ],
+  "review_counts": {
+    "coherence_labels": 40,
+    "grounding_labels": 25,
+    "metadata_labels": 75,
+    "distinct_coherence_chunks": 30,
+    "actual_pdf_pages_reextracted": 39
+  },
+  "ai_equivalent_evidence_reviews": [
+    {
+      "cohort": "original_test",
+      "strategy": "A",
+      "question_id": "q16",
+      "strict_hit_at_3": "0",
+      "ai_supported_hit_at_3": "1",
+      "alternative_pdf_pages": "165;180",
+      "reason": "Returned passages state the minimum-membership/grace-period rule and the piano club falling below the threshold; these support the same answer as the registered page-213 quote. Frozen v1 scores remain unchanged.",
+      "reviewer": "Codex AI assistant",
+      "independent_human_verified": "False"
+    }
+  ],
+  "equivalence_status": "Supplementary AI-supported findings; frozen metrics unchanged; independent human validation pending"
+}

@@ -1,0 +1,50 @@
+{
+  "selected_strategy": "C",
+  "selected_at_utc": "2026-11-14T03:47:15.674869+00:00",
+  "freeze_sha256": "27ecced3840a81841ef02d6c64de0407d3748244f58d1a5bf944b50d93785718",
+  "rule": [
+    "highest dev Evidence Hit@3 count",
+    "highest dev Hit@1 count",
+    "fewest indexed chunks",
+    "alphabetical strategy name"
+  ],
+  "dev_ranking": [
+    {
+      "strategy": "C",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1_count": 8,
+      "hit_at_1": 0.5333333333333333,
+      "evidence_hit_at_3_count": 9,
+      "evidence_hit_at_3": 0.6,
+      "filter_questions": 3,
+      "filter_compliant_count": 3,
+      "filter_compliance": 1.0
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1_count": 7,
+      "hit_at_1": 0.4666666666666667,
+      "evidence_hit_at_3_count": 9,
+      "evidence_hit_at_3": 0.6,
+      "filter_questions": 3,
+      "filter_compliant_count": 1,
+      "filter_compliance": 0.3333333333333333
+    },
+    {
+      "strategy": "A",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1_count": 6,
+      "hit_at_1": 0.4,
+      "evidence_hit_at_3_count": 8,
+      "evidence_hit_at_3": 0.5333333333333333,
+      "filter_questions": 3,
+      "filter_compliant_count": 1,
+      "filter_compliance": 0.3333333333333333
+    }
+  ],
+  "test_results_used": false
+}

@@ -1,0 +1,7 @@
+benchmark,strategy,split,questions,hit_at_1_count,evidence_hit_at_3_count,mean_retrieval_ms,notes
+roshidere-v2,D,dev,15,6,9,28.32,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged
+roshidere-v2,E,dev,15,8,9,84.49,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged
+roshidere-v2,F,dev,15,10,11,1054.71,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged
+roshidere-v2,baseline_C,dev,15,8,9,23.71,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged
+roshidere-v2,F,test,10,8,10,969.62,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged
+roshidere-v2,baseline_C,test,10,2,4,26.96,Original strict scoring; 15 unchanged dev questions or 10 newly frozen test questions; baseline dev traces reused unchanged

@@ -1,0 +1,82 @@
+{
+  "source_id": "roshidere-vol10",
+  "extracted_physical_pages": 270,
+  "working_pages": 227,
+  "reviewed_content_pages_counted": 39,
+  "permission_status": "unconfirmed",
+  "baseline": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "embedding_backend": "local ONNX CPU, 4 threads, batch size 32",
+    "similarity": "exact cosine; no approximate vector index",
+    "package_versions": {
+      "fastembed": "0.9.1",
+      "onnxruntime": "1.32.0",
+      "psycopg": "3.3.8",
+      "pypdf": "6.21.4",
+      "numpy": "2.5.4"
+    },
+    "postgresql_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector_version": "0.8.7",
+    "embedding_seconds": 82.4206892000002,
+    "total_ingest_seconds": 84.72343909999972,
+    "api_cost_usd": 0,
+    "api_cost_note": "Local inference; excludes hardware, electricity, and network costs",
+    "strategies": {
+      "A": {
+        "chunk_count": 865,
+        "characters": 383272,
+        "min_characters": 54,
+        "max_characters": 500,
+        "mean_characters": 443.08901734104046,
+        "median_characters": 500,
+        "chunking": "fixed",
+        "overlap": 50,
+        "filter_policy": "none",
+        "database_rows": 865,
+        "database_write_seconds": 0.3620175000000927
+      },
+      "B": {
+        "chunk_count": 1012,
+        "characters": 350089,
+        "min_characters": 5,
+        "max_characters": 500,
+        "mean_characters": 345.9377470355731,
+        "median_characters": 395.0,
+        "chunking": "paragraph",
+        "overlap": 0,
+        "filter_policy": "none",
+        "database_rows": 1012,
+        "database_write_seconds": 0.3529116999998223
+      },
+      "C": {
+        "chunk_count": 1012,
+        "characters": 350089,
+        "min_characters": 5,
+        "max_characters": 500,
+        "mean_characters": 345.9377470355731,
+        "median_characters": 395.0,
+        "chunking": "paragraph",
+        "overlap": 0,
+        "filter_policy": "provided section filter only",
+        "database_rows": 1012,
+        "database_write_seconds": 0.3490902999997161
+      }
+    }
+  },
+  "improvement": {
+    "reranker_name": "Xenova/ms-marco-MiniLM-L-6-v2",
+    "chunk_count": 535,
+    "max_chunk_characters": 1000,
+    "max_embedding_tokens": 281,
+    "embedding_and_storage_seconds": 35.30065290000039,
+    "embedding_api_cost_usd": 0,
+    "candidate_params": {
+      "depth": 30,
+      "rrf_k": 60,
+      "rerank_pool": 30
+    }
+  },
+  "metrics": "results/retrieval_metrics.csv",
+  "timing_limitations": "Warm retrieval timings exclude query embedding/process/model startup. No API cost includes hardware/power/network costs."
+}

@@ -1,0 +1,3 @@
+strategy,split,questions,hit_at_1_count,hit_at_1,evidence_hit_at_3_count,evidence_hit_at_3,filter_questions,filter_compliant_count,filter_compliance
+F,test,10,8,0.8,10,1.0,3,3,1.0
+baseline_C,test,10,2,0.2,4,0.4,3,3,1.0

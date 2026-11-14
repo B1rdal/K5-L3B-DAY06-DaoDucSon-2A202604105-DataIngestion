@@ -1,0 +1,6 @@
+{
+  "dev_selected": "F",
+  "fresh_test_nonregression": true,
+  "promoted": true,
+  "rule_predeclared_in": "benchmark/roshidere-v2/promotion_gate.json"
+}

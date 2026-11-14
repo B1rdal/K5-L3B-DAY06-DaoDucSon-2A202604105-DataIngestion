@@ -1,0 +1,5 @@
+{
+  "config": "configs/roshidere-v2.json",
+  "strategy": "F",
+  "selection": "results/roshidere-v2/selection.json"
+}

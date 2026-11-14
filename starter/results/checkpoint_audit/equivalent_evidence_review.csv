@@ -1,0 +1,2 @@
+cohort,strategy,question_id,strict_hit_at_3,ai_supported_hit_at_3,alternative_pdf_pages,reason,reviewer,independent_human_verified
+original_test,A,q16,0,1,165;180,Returned passages state the minimum-membership/grace-period rule and the piano club falling below the threshold; these support the same answer as the registered page-213 quote. Frozen v1 scores remain unchanged.,Codex AI assistant,False

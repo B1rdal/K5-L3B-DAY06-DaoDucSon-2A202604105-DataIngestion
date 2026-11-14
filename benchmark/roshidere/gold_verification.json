@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01",
+    "page": 14,
+    "quote_characters": 243,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q02",
+    "page": 15,
+    "quote_characters": 71,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q03",
+    "page": 20,
+    "quote_characters": 104,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q04",
+    "page": 42,
+    "quote_characters": 269,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q05",
+    "page": 57,
+    "quote_characters": 135,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q06",
+    "page": 65,
+    "quote_characters": 144,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q07",
+    "page": 77,
+    "quote_characters": 114,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q08",
+    "page": 90,
+    "quote_characters": 43,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q09",
+    "page": 111,
+    "quote_characters": 214,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q10",
+    "page": 120,
+    "quote_characters": 89,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q11",
+    "page": 137,
+    "quote_characters": 210,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q12",
+    "page": 150,
+    "quote_characters": 161,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q13",
+    "page": 160,
+    "quote_characters": 191,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q14",
+    "page": 175,
+    "quote_characters": 111,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q15",
+    "page": 185,
+    "quote_characters": 132,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q16",
+    "page": 213,
+    "quote_characters": 145,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q17",
+    "page": 233,
+    "quote_characters": 89,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q18",
+    "page": 251,
+    "quote_characters": 179,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q19",
+    "page": 262,
+    "quote_characters": 121,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  },
+  {
+    "id": "q20",
+    "page": 267,
+    "quote_characters": 253,
+    "exists_in_prepared_page": true,
+    "exists_in_original_extracted_page": true,
+    "answer_support_review": "AI assistant read the source page; independent human review pending"
+  }
+]

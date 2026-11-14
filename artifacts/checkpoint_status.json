@@ -1,0 +1,21 @@
+{
+  "checkpoint": "3:30 benchmark and audit",
+  "artifacts_complete": true,
+  "audit_reviewer": "Codex AI assistant",
+  "independent_human_review_complete": false,
+  "subjective_labels_ai_only": true,
+  "retrieval_metrics_complete": true,
+  "coherence_labels": 40,
+  "metadata_record_labels": 75,
+  "grounding_labels": 25,
+  "source_pdf_pages_rechecked": 39,
+  "final_submission_complete": false,
+  "updated_at_utc": "2026-11-14T04:40:53.834235+00:00",
+  "remaining_for_submission": [
+    "Independent human validation of AI-assisted ratings",
+    "Student details",
+    "Permissions and final corpus manifest/content review",
+    "Individual report and final submission checklist",
+    "Accessible repository link submission"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "created_before_tuning_utc": "2026-11-14T04:04:11.386025+00:00",
+  "questions_sha256": "4c4950fcffe4f6557e8787f4e3cfffaa166f3785754c6b22305532e74deb5ce9",
+  "protocol_sha256": "c983382116e17e1e92f43953cab97b82de599a0d434383560308b4f99f54d397",
+  "fresh_test_questions": 10,
+  "dev_questions": 15,
+  "original_benchmark_unchanged": true
+}

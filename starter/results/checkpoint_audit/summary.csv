@@ -1,0 +1,15 @@
+kind,cohort,strategy,n,sum,mean,count_0,count_1,count_2
+coherence,shared_source_locations,A,10,10,1.0,0,10,0
+coherence,shared_source_locations,B,10,11,1.1,1,7,2
+coherence,shared_source_locations,C,10,11,1.1,1,7,2
+coherence,shared_source_locations,F,10,17,1.7,0,3,7
+grounding,fresh_test_subset,C,5,4,0.8,2,2,1
+grounding,fresh_test_subset,F,5,10,2.0,0,0,5
+grounding,original_test,A,5,8,1.6,0,2,3
+grounding,original_test,B,5,8,1.6,0,2,3
+grounding,original_test,C,5,9,1.8,0,1,4
+metadata,fresh_test_subset,C,15,15,1.0,0,15,0
+metadata,fresh_test_subset,F,15,15,1.0,0,15,0
+metadata,original_test,A,15,15,1.0,0,15,0
+metadata,original_test,B,15,15,1.0,0,15,0
+metadata,original_test,C,15,15,1.0,0,15,0

@@ -1,0 +1,33 @@
+{
+  "version": "roshidere-retrieval-v1",
+  "created_at_utc": "2026-11-14T03:44:40.608074+00:00",
+  "question_count": 20,
+  "dev_count": 15,
+  "test_count": 5,
+  "split_rule": "Dev: prologue and chapters 1-8. Test: chapters 9-10, epilogue, bonus story. Fixed before any question retrieval.",
+  "sampling": "Convenience sample authored from selected source pages; many chapter openings. Not a random or comprehensive test.",
+  "authorship": "Questions and gold drafted by Codex AI assistant; source quotes checked automatically and read by assistant; independent human verification pending.",
+  "prior_activity": "Default indexes were built before this benchmark. Earlier checks used synthetic questions or stored-vector integrity lookups; no story-question benchmark was tuned. The prior CLI smoke query was database setup connectivity smoke check.",
+  "metric": "One returned chunk must match the gold document ID and physical PDF page and contain a complete registered evidence quote after Unicode NFC/whitespace normalization. No semantic-equivalence judgment.",
+  "alternatives": "alternative_evidence may list additional gold_source_id/gold_page/evidence_quote records; all must be validated before freezing. No labels are changed after retrieval in this v1 run.",
+  "top_k": 3,
+  "strategy_filters": {
+    "A": "none",
+    "B": "none",
+    "C": "only the filter explicitly supplied by each question; no filter otherwise"
+  },
+  "selection_rule": [
+    "highest dev Evidence Hit@3 count",
+    "highest dev Hit@1 count",
+    "fewest indexed chunks",
+    "alphabetical strategy name"
+  ],
+  "holdout_rule": "Select on dev first, save the decision, then run all three configurations on test without changing corpus/model/chunking/questions/labels.",
+  "limitations": [
+    "Only five test questions; each changes the test percentage by 20 points.",
+    "Single novel and English embedding model.",
+    "Same assistant authored the benchmark and implemented evaluation.",
+    "Strict registered-quote scoring can miss valid alternative evidence and paraphrases.",
+    "No human coherence or grounding scores are inferred."
+  ]
+}

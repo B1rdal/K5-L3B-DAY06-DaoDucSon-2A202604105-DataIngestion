@@ -1,0 +1,9 @@
+{
+  "created_after_evaluation": true,
+  "frozen_questions_or_scores_changed": false,
+  "notes": {
+    "q03": "Needs a more precise opening-scene qualifier in a future version because Chapter 1 includes language changes.",
+    "q14": "Short quoted offer with little scene context may be ambiguous.",
+    "q20": "Full gold quote crosses chunk boundaries; useful multi-chunk context may still be present."
+  }
+}

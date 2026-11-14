@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-11-14T03:32:07.085627+00:00",
+  "input_sha256": "501ee41a6e8f0cc6a60541113a6e1cb44e67da691c1cd4d772d4cf4b5ae2cdfa",
+  "config_sha256": "abce746575aa7e85ac9056d2643dcfce8c73a6696f81cc8a75a554bedfdbdddc",
+  "input_text_pages": 261,
+  "prepared_text_pages": 227,
+  "section_page_counts": {
+    "prologue": 4,
+    "chapter_1": 20,
+    "chapter_2": 14,
+    "chapter_3": 19,
+    "chapter_4": 31,
+    "chapter_5": 24,
+    "chapter_6": 21,
+    "chapter_7": 23,
+    "chapter_8": 26,
+    "chapter_9": 19,
+    "chapter_10": 16,
+    "epilogue": 4,
+    "bonus_story": 6
+  },
+  "strategies": {
+    "A": {
+      "chunk_count": 865,
+      "characters": 383272,
+      "min_characters": 54,
+      "max_characters": 500,
+      "mean_characters": 443.08901734104046,
+      "median_characters": 500,
+      "chunking": "fixed",
+      "overlap": 50,
+      "filter_policy": "none"
+    },
+    "B": {
+      "chunk_count": 1012,
+      "characters": 350089,
+      "min_characters": 5,
+      "max_characters": 500,
+      "mean_characters": 345.9377470355731,
+      "median_characters": 395.0,
+      "chunking": "paragraph",
+      "overlap": 0,
+      "filter_policy": "none"
+    },
+    "C": {
+      "chunk_count": 1012,
+      "characters": 350089,
+      "min_characters": 5,
+      "max_characters": 500,
+      "mean_characters": 345.9377470355731,
+      "median_characters": 395.0,
+      "chunking": "paragraph",
+      "overlap": 0,
+      "filter_policy": "provided section filter only"
+    }
+  },
+  "corpus_scope": "Prologue, main chapters, epilogue, and bonus story. Exclude front matter, afterword, translator closing notes, footer-only pages, and standalone pages beginning with a translator footnote marker.",
+  "content_review_status": "Working corpus selection; final content-page and permission review still required",
+  "chunking_seconds": 0.11332889999994222
+}

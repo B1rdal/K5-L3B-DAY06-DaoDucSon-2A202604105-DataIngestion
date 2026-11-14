@@ -1,0 +1,1573 @@
+{
+  "scope": "Prologue, main chapters, epilogue, and bonus story. Exclude front matter, afterword, translator closing notes, footer-only pages, and standalone pages beginning with a translator footnote marker.",
+  "review_status": "Working corpus selection; final content-page and permission review still required",
+  "section_source": "Physical PDF page 13 (contents), checked against section opening pages",
+  "pages": [
+    {
+      "page": 8,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 1059
+    },
+    {
+      "page": 9,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 754
+    },
+    {
+      "page": 10,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 1755
+    },
+    {
+      "page": 13,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 729
+    },
+    {
+      "page": 14,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1286
+    },
+    {
+      "page": 15,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1946
+    },
+    {
+      "page": 16,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1395
+    },
+    {
+      "page": 17,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1156
+    },
+    {
+      "page": 18,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 18
+    },
+    {
+      "page": 19,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 564
+    },
+    {
+      "page": 20,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1438
+    },
+    {
+      "page": 21,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1720
+    },
+    {
+      "page": 22,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1658
+    },
+    {
+      "page": 23,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1772
+    },
+    {
+      "page": 24,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1682
+    },
+    {
+      "page": 25,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1559
+    },
+    {
+      "page": 26,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1720
+    },
+    {
+      "page": 27,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1507
+    },
+    {
+      "page": 28,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1526
+    },
+    {
+      "page": 29,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1789
+    },
+    {
+      "page": 30,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1726
+    },
+    {
+      "page": 31,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1729
+    },
+    {
+      "page": 32,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1427
+    },
+    {
+      "page": 33,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1448
+    },
+    {
+      "page": 34,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1397
+    },
+    {
+      "page": 35,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1585
+    },
+    {
+      "page": 36,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 136
+    },
+    {
+      "page": 37,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 38,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1545
+    },
+    {
+      "page": 39,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1439
+    },
+    {
+      "page": 40,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 711
+    },
+    {
+      "page": 41,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 1848
+    },
+    {
+      "page": 42,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1283
+    },
+    {
+      "page": 43,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1623
+    },
+    {
+      "page": 44,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1802
+    },
+    {
+      "page": 45,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1336
+    },
+    {
+      "page": 46,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1495
+    },
+    {
+      "page": 47,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1421
+    },
+    {
+      "page": 48,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1411
+    },
+    {
+      "page": 49,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1239
+    },
+    {
+      "page": 50,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1776
+    },
+    {
+      "page": 51,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1388
+    },
+    {
+      "page": 52,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1370
+    },
+    {
+      "page": 53,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1392
+    },
+    {
+      "page": 54,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1187
+    },
+    {
+      "page": 55,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 816
+    },
+    {
+      "page": 56,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 57,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1270
+    },
+    {
+      "page": 58,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1342
+    },
+    {
+      "page": 59,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1830
+    },
+    {
+      "page": 60,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1681
+    },
+    {
+      "page": 61,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1966
+    },
+    {
+      "page": 62,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1795
+    },
+    {
+      "page": 63,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1814
+    },
+    {
+      "page": 64,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1655
+    },
+    {
+      "page": 65,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1451
+    },
+    {
+      "page": 66,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1445
+    },
+    {
+      "page": 67,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1612
+    },
+    {
+      "page": 68,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1789
+    },
+    {
+      "page": 69,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1259
+    },
+    {
+      "page": 70,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1727
+    },
+    {
+      "page": 71,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1919
+    },
+    {
+      "page": 72,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1406
+    },
+    {
+      "page": 73,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1923
+    },
+    {
+      "page": 74,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1609
+    },
+    {
+      "page": 75,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 69
+    },
+    {
+      "page": 76,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 374
+    },
+    {
+      "page": 77,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1304
+    },
+    {
+      "page": 78,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1687
+    },
+    {
+      "page": 79,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 325
+    },
+    {
+      "page": 80,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 81,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1616
+    },
+    {
+      "page": 82,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1629
+    },
+    {
+      "page": 83,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1823
+    },
+    {
+      "page": 84,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1388
+    },
+    {
+      "page": 85,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1669
+    },
+    {
+      "page": 86,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1579
+    },
+    {
+      "page": 87,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1504
+    },
+    {
+      "page": 88,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1303
+    },
+    {
+      "page": 89,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1282
+    },
+    {
+      "page": 90,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 455
+    },
+    {
+      "page": 91,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 92,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1760
+    },
+    {
+      "page": 93,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1854
+    },
+    {
+      "page": 94,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1905
+    },
+    {
+      "page": 95,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1782
+    },
+    {
+      "page": 96,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1500
+    },
+    {
+      "page": 97,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1590
+    },
+    {
+      "page": 98,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1489
+    },
+    {
+      "page": 99,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1455
+    },
+    {
+      "page": 100,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1814
+    },
+    {
+      "page": 101,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1783
+    },
+    {
+      "page": 102,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1704
+    },
+    {
+      "page": 103,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1622
+    },
+    {
+      "page": 104,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1668
+    },
+    {
+      "page": 105,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1549
+    },
+    {
+      "page": 106,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1317
+    },
+    {
+      "page": 107,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1763
+    },
+    {
+      "page": 108,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1740
+    },
+    {
+      "page": 109,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1175
+    },
+    {
+      "page": 110,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 198
+    },
+    {
+      "page": 111,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1599
+    },
+    {
+      "page": 112,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1674
+    },
+    {
+      "page": 113,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1850
+    },
+    {
+      "page": 114,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1763
+    },
+    {
+      "page": 115,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1885
+    },
+    {
+      "page": 116,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1599
+    },
+    {
+      "page": 117,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1825
+    },
+    {
+      "page": 118,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1957
+    },
+    {
+      "page": 119,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1636
+    },
+    {
+      "page": 120,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1637
+    },
+    {
+      "page": 121,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1513
+    },
+    {
+      "page": 122,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1424
+    },
+    {
+      "page": 123,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1610
+    },
+    {
+      "page": 124,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1454
+    },
+    {
+      "page": 125,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1721
+    },
+    {
+      "page": 126,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1447
+    },
+    {
+      "page": 127,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1846
+    },
+    {
+      "page": 128,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1429
+    },
+    {
+      "page": 129,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1441
+    },
+    {
+      "page": 130,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1678
+    },
+    {
+      "page": 131,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1388
+    },
+    {
+      "page": 132,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1509
+    },
+    {
+      "page": 133,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1577
+    },
+    {
+      "page": 134,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 691
+    },
+    {
+      "page": 135,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 3426
+    },
+    {
+      "page": 136,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 143
+    },
+    {
+      "page": 137,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 912
+    },
+    {
+      "page": 138,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 139,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1817
+    },
+    {
+      "page": 140,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1213
+    },
+    {
+      "page": 141,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1514
+    },
+    {
+      "page": 142,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1499
+    },
+    {
+      "page": 143,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1884
+    },
+    {
+      "page": 144,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1800
+    },
+    {
+      "page": 145,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1365
+    },
+    {
+      "page": 146,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1857
+    },
+    {
+      "page": 147,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1539
+    },
+    {
+      "page": 148,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1541
+    },
+    {
+      "page": 149,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1417
+    },
+    {
+      "page": 150,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1292
+    },
+    {
+      "page": 151,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1495
+    },
+    {
+      "page": 152,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1546
+    },
+    {
+      "page": 153,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1375
+    },
+    {
+      "page": 154,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1900
+    },
+    {
+      "page": 155,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1804
+    },
+    {
+      "page": 156,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1767
+    },
+    {
+      "page": 157,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1801
+    },
+    {
+      "page": 158,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 177
+    },
+    {
+      "page": 159,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 188
+    },
+    {
+      "page": 160,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1466
+    },
+    {
+      "page": 161,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1385
+    },
+    {
+      "page": 162,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1625
+    },
+    {
+      "page": 163,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1502
+    },
+    {
+      "page": 164,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1849
+    },
+    {
+      "page": 165,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1632
+    },
+    {
+      "page": 166,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 295
+    },
+    {
+      "page": 167,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 168,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1830
+    },
+    {
+      "page": 169,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1580
+    },
+    {
+      "page": 170,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1672
+    },
+    {
+      "page": 171,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1768
+    },
+    {
+      "page": 172,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1892
+    },
+    {
+      "page": 173,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1611
+    },
+    {
+      "page": 174,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1733
+    },
+    {
+      "page": 175,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 327
+    },
+    {
+      "page": 176,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 177,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1595
+    },
+    {
+      "page": 178,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2299
+    },
+    {
+      "page": 179,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1821
+    },
+    {
+      "page": 180,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1728
+    },
+    {
+      "page": 181,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1895
+    },
+    {
+      "page": 182,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1797
+    },
+    {
+      "page": 183,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1433
+    },
+    {
+      "page": 184,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 149
+    },
+    {
+      "page": 185,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1807
+    },
+    {
+      "page": 186,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1239
+    },
+    {
+      "page": 187,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2164
+    },
+    {
+      "page": 188,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1409
+    },
+    {
+      "page": 189,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1598
+    },
+    {
+      "page": 190,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1845
+    },
+    {
+      "page": 191,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1999
+    },
+    {
+      "page": 192,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1804
+    },
+    {
+      "page": 193,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1501
+    },
+    {
+      "page": 194,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1651
+    },
+    {
+      "page": 195,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1659
+    },
+    {
+      "page": 196,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1736
+    },
+    {
+      "page": 197,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1500
+    },
+    {
+      "page": 198,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1085
+    },
+    {
+      "page": 199,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 350
+    },
+    {
+      "page": 200,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 201,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1773
+    },
+    {
+      "page": 202,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1464
+    },
+    {
+      "page": 203,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1637
+    },
+    {
+      "page": 204,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1549
+    },
+    {
+      "page": 205,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1778
+    },
+    {
+      "page": 206,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1922
+    },
+    {
+      "page": 207,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1593
+    },
+    {
+      "page": 208,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1492
+    },
+    {
+      "page": 209,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1748
+    },
+    {
+      "page": 210,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1593
+    },
+    {
+      "page": 211,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1298
+    },
+    {
+      "page": 212,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 2098
+    },
+    {
+      "page": 213,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1596
+    },
+    {
+      "page": 214,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1759
+    },
+    {
+      "page": 215,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1951
+    },
+    {
+      "page": 216,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1924
+    },
+    {
+      "page": 217,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1390
+    },
+    {
+      "page": 218,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1952
+    },
+    {
+      "page": 219,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1989
+    },
+    {
+      "page": 220,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1837
+    },
+    {
+      "page": 221,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2338
+    },
+    {
+      "page": 222,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1533
+    },
+    {
+      "page": 223,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2003
+    },
+    {
+      "page": 224,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1908
+    },
+    {
+      "page": 225,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1914
+    },
+    {
+      "page": 226,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1844
+    },
+    {
+      "page": 227,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1892
+    },
+    {
+      "page": 228,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1932
+    },
+    {
+      "page": 229,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1895
+    },
+    {
+      "page": 230,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1846
+    },
+    {
+      "page": 231,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1129
+    },
+    {
+      "page": 232,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 831
+    },
+    {
+      "page": 233,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1032
+    },
+    {
+      "page": 234,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1535
+    },
+    {
+      "page": 235,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1606
+    },
+    {
+      "page": 236,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1934
+    },
+    {
+      "page": 237,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1253
+    },
+    {
+      "page": 238,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1823
+    },
+    {
+      "page": 239,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1372
+    },
+    {
+      "page": 240,
+      "included": false,
+      "reason": "no_prose_after_footer_removal",
+      "normalized_characters": 0
+    },
+    {
+      "page": 241,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1526
+    },
+    {
+      "page": 242,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1508
+    },
+    {
+      "page": 243,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1946
+    },
+    {
+      "page": 244,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2057
+    },
+    {
+      "page": 245,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1885
+    },
+    {
+      "page": 246,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1769
+    },
+    {
+      "page": 247,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1691
+    },
+    {
+      "page": 248,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1531
+    },
+    {
+      "page": 249,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 540
+    },
+    {
+      "page": 250,
+      "included": false,
+      "reason": "standalone_translator_note_page",
+      "normalized_characters": 1398
+    },
+    {
+      "page": 251,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1678
+    },
+    {
+      "page": 252,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 2259
+    },
+    {
+      "page": 253,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 499
+    },
+    {
+      "page": 254,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 748
+    },
+    {
+      "page": 255,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 2183
+    },
+    {
+      "page": 256,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 2218
+    },
+    {
+      "page": 257,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 2751
+    },
+    {
+      "page": 258,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 2573
+    },
+    {
+      "page": 259,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 1584
+    },
+    {
+      "page": 260,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 0
+    },
+    {
+      "page": 261,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 872
+    },
+    {
+      "page": 262,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1578
+    },
+    {
+      "page": 263,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1800
+    },
+    {
+      "page": 264,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1571
+    },
+    {
+      "page": 265,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1332
+    },
+    {
+      "page": 266,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1676
+    },
+    {
+      "page": 267,
+      "included": true,
+      "reason": null,
+      "normalized_characters": 1413
+    },
+    {
+      "page": 268,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 1947
+    },
+    {
+      "page": 269,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 858
+    },
+    {
+      "page": 270,
+      "included": false,
+      "reason": "outside_selected_story_sections",
+      "normalized_characters": 804
+    }
+  ]
+}

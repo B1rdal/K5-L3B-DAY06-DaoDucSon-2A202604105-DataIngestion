@@ -1,0 +1,116 @@
+{
+  "pdf_path": "F:\\FDownload\\MainDownload\\Roshidere, Vol. 10 - Glucose Translations.pdf",
+  "pdf_sha256": "dd48d3ff9c189bf4987e985e0b356edd5ea18b75fb010c92d3bb5b4c49b50fcf",
+  "unique_audited_pdf_pages": [
+    14,
+    15,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    106,
+    140,
+    144,
+    152,
+    165,
+    168,
+    180,
+    182,
+    213,
+    215,
+    217,
+    219,
+    220,
+    225,
+    226,
+    228,
+    233,
+    235,
+    237,
+    238,
+    241,
+    243,
+    244,
+    251,
+    254,
+    262,
+    263,
+    264,
+    267
+  ],
+  "section_opening_checks": [
+    {
+      "section": "prologue",
+      "start_page": 14,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_1",
+      "start_page": 20,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_2",
+      "start_page": 42,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_3",
+      "start_page": 57,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_4",
+      "start_page": 77,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_5",
+      "start_page": 111,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_6",
+      "start_page": 137,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_7",
+      "start_page": 160,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_8",
+      "start_page": 185,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_9",
+      "start_page": 213,
+      "heading_matches": true
+    },
+    {
+      "section": "chapter_10",
+      "start_page": 233,
+      "heading_matches": true
+    },
+    {
+      "section": "epilogue",
+      "start_page": 251,
+      "heading_matches": true
+    },
+    {
+      "section": "bonus_story",
+      "start_page": 262,
+      "heading_matches": true
+    }
+  ],
+  "coherence_samples": 40,
+  "grounding_cases": 25,
+  "metadata_records": 75,
+  "all_source_checks_pass": true
+}

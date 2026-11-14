@@ -1,0 +1,5 @@
+{
+  "created_before_dev_tuning_utc": "2026-11-14T04:07:28.776064+00:00",
+  "promotion_gate": "Deploy only the dev-selected candidate, and only if both fresh-test Hit@3 and Hit@1 are no worse than original C. Otherwise keep C; never select another candidate on fresh-test results.",
+  "evaluation_code": "Original strict scorer unchanged; model and corpus unchanged; original table and results retained."
+}

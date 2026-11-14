@@ -8,3 +8,17 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Local working files and corpus text: permission to redistribute is unconfirmed.
+work/
+*.pdf
+benchmark/*/questions.jsonl
+starter/results/*pages.jsonl
+starter/results/roshidere/prepared_pages.jsonl
+starter/results/roshidere/chunks_*.jsonl
+starter/results/roshidere-v2/chunks_D.jsonl
+starter/results/**/traces.jsonl
+starter/results/checkpoint_audit/coherence_samples.jsonl
+starter/results/checkpoint_audit/grounding_cases.jsonl
+starter/results/checkpoint_audit/source_pages.jsonl
+starter/results/checkpoint_audit/pdf_contents_page.txt

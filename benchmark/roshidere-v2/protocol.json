@@ -1,0 +1,22 @@
+{
+  "version": "roshidere-improvement-v2",
+  "prepared_at_utc": "2026-11-14T04:04:11.385395+00:00",
+  "dev": "Reuse the original 15 dev questions unchanged; original 5 test questions are not used for tuning or fresh holdout reporting.",
+  "holdout": "Ten new questions about different facts/pages in chapters 9-10, epilogue, and bonus story. Written and source-verified before candidate development or evaluation. Do not run holdout retrieval until selection is locked.",
+  "authorship": "AI-authored convenience sample, exact quote existence checked in original and prepared pages; independent human validation pending.",
+  "candidate_plan": {
+    "baseline_C": "Original paragraph 500-character chunks with optional section filter",
+    "D": "Sentence-aware 1000-character windows, 250-character overlap; same embedding model and optional section filter",
+    "E": "Same D chunks; dense plus PostgreSQL English full-text retrieval, reciprocal-rank fusion k=60, depth=30 per retriever",
+    "F": "Same E candidate pool; local Xenova/ms-marco-MiniLM-L-6-v2 cross-encoder reranks up to 30 fused candidates"
+  },
+  "selection_rule": [
+    "highest dev strict Evidence Hit@3",
+    "highest dev strict Hit@1",
+    "simpler method in fixed order baseline_C,D,E,F"
+  ],
+  "bounds": "One predeclared context size and overlap, one fusion setting and one reranker. No tuning on fresh holdout. Skip more complex candidates only if a simpler candidate is perfect on both dev metrics.",
+  "metric": "Original unchanged strict document/page/full-evidence-quote containment metric. No new evidence alternatives or relaxed scoring.",
+  "fair_comparison": "Evaluate original baseline C and dev-selected candidate on exactly the same new ten test questions. Preserve original v1 data and result artifacts.",
+  "old_test_status": "Original five-question holdout was already viewed. Any later old-test result is a diagnostic only, not an independent improvement claim."
+}

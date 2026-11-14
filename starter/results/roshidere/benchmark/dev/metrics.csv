@@ -1,0 +1,4 @@
+strategy,split,questions,hit_at_1_count,hit_at_1,evidence_hit_at_3_count,evidence_hit_at_3,filter_questions,filter_compliant_count,filter_compliance
+A,dev,15,6,0.4,8,0.5333333333333333,3,1,0.3333333333333333
+B,dev,15,7,0.4666666666666667,9,0.6,3,1,0.3333333333333333
+C,dev,15,8,0.5333333333333333,9,0.6,3,3,1.0

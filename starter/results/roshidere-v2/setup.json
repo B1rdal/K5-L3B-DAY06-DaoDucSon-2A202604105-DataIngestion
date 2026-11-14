@@ -1,0 +1,54 @@
+{
+  "prepared_at_utc": "2026-11-14T04:11:33.348513+00:00",
+  "config_sha256": "7e24a285ea62296d46545d0cdd25bd534d4fc4d747f84f12e18a6ddd97720363",
+  "questions": {
+    "questions_sha256": "4c4950fcffe4f6557e8787f4e3cfffaa166f3785754c6b22305532e74deb5ce9",
+    "protocol_sha256": "c983382116e17e1e92f43953cab97b82de599a0d434383560308b4f99f54d397",
+    "promotion_gate_sha256": "9aab6022c6cdf5aec6fe52864ea940b81326341b765eaf206b877cb8cafe2dba"
+  },
+  "prepared_pages_sha256": "09685a8f19ce0473ed7ac4786325449ebda238f5183ffd857971c8c5efef06ad",
+  "baseline": {
+    "questions_sha256": "821839dbd190407fcba4a56997a0d0f1f2842f4a27d787cf08d1524034c2816a",
+    "protocol_sha256": "4ba30e8f48735eb04cea8c99f6b77b4acbef51d8e44c354ce279ddf4cefb40ba",
+    "config_sha256": "3e48086aba913bb68557d89396056831584f3980bdca55d191030aca416e9225",
+    "prepared_pages_sha256": "09685a8f19ce0473ed7ac4786325449ebda238f5183ffd857971c8c5efef06ad",
+    "raw_pages_sha256": "a8f403d7e50fcf8b18e7286b38da603a61dc0d5d0c2a022003fdb9148da9d0c4",
+    "database_sha256": "595b3e77db1f365b42e4946f162a853cc14742f9654db2dfeb8a132762087597",
+    "index_counts": {
+      "A": 865,
+      "B": 1012,
+      "C": 1012
+    },
+    "storage_model_id": "BAAI/bge-small-en-v1.5|fastembed=0.9.1|sha256=1f9ba29c68f78dc9ebdbc6a72dcf354800e9cd29fcd76634a8cb18b865ec69ef"
+  },
+  "candidate_index": {
+    "sha256": "acecf2375dbde542640fc98f2cf33cc4a54ae6d906924e860b9845661e377e7f",
+    "rows": 535
+  },
+  "storage_model_id": "BAAI/bge-small-en-v1.5|fastembed=0.9.1|sha256=1f9ba29c68f78dc9ebdbc6a72dcf354800e9cd29fcd76634a8cb18b865ec69ef",
+  "dimensions": 384,
+  "reranker_name": "Xenova/ms-marco-MiniLM-L-6-v2",
+  "reranker_fingerprint": "6960bba27c2de6915d1257e0e891b4d7f43d4fcdc5b2838995f5fbbb31d17a00",
+  "reranker_model_files": {
+    "onnx/model.onnx": "c623d0bcb99f4622beb413eaef00cfbe5db20df9f1dd982da4b4f26022881870",
+    "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53",
+    "config.json": "d827779a72d27ae68cf878a6fc2e954542663fe21ca515d9f4783fc96be2d37e"
+  },
+  "chunk_count": 535,
+  "max_embedding_tokens": 281,
+  "max_chunk_characters": 1000,
+  "embedding_and_storage_seconds": 35.30065290000039,
+  "embedding_api_cost_usd": 0,
+  "candidate_order": [
+    "baseline_C",
+    "D",
+    "E",
+    "F"
+  ],
+  "candidate_params": {
+    "depth": 30,
+    "rrf_k": 60,
+    "rerank_pool": 30
+  }
+}
