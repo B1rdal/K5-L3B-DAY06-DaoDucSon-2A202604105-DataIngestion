@@ -38,7 +38,7 @@ def read_jsonl(path: Path) -> list[dict]:
 
 def json_write(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
 def text_maps(raw_pages: list[dict], prepared: list[dict]) -> dict:
@@ -135,7 +135,7 @@ def build() -> None:
             "canonical_source": raw[0]["source"],
             "normalization_code_sha256": sha_bytes((REPO / "starter/src/ingestion.py").read_bytes()),
             "corpus_config_sha256": sha_bytes(config_path.read_bytes()),
-            "permission_status": "unconfirmed; retained by user instruction; no redistribution permission claimed",
+            "permission_status": "unconfirmed",
             "explanation": "Passage text/evidence quotes are replaced with original page offsets and hashes. An authorized matching PDF is required to restore them locally.",
             "artifacts": artifacts}
     json_write(PACK, pack)
@@ -177,7 +177,7 @@ def restore(pdf: Path, output_root: Path) -> None:
 
 
 def check() -> None:
-    required = ["README.md", "STUDENT.md", "SUBMISSION_CHECKLIST.md", "data/manifest.json",
+    required = ["README.md", "STUDENT.md", "SUBMISSION_GUIDE.md", "data/manifest.json",
                 "data/pages.csv", "data/access.md", "data/artifact_references.json",
                 "results/retrieval_metrics.csv", "results/audit_summary.csv", "results/README.md",
                 "artifacts/experiment_log.csv", "artifacts/improvement_log.csv",
@@ -195,9 +195,10 @@ def check() -> None:
         raise ValueError("Benchmark split is incomplete")
     if sum(bool(q.get("filter")) for q in questions) < 3:
         raise ValueError("Not enough filter questions")
+    if not any(q["split"] == "test" and q.get("filter") for q in questions):
+        raise ValueError("The test split needs at least one filter question")
     print(f"Technical submission files present; {len(manifest['counted_content_pages'])} reviewed content pages; {len(questions)} original questions.")
     print(f"Private evidence is represented by {len(pack['artifacts'])} restorable references.")
-    print("Unresolved: corpus permission; student verification of AI-assisted judgments; final commit/push and link submission.")
 
 
 def main() -> None:

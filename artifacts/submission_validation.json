@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-14T07:23:51.249248+00:00",
+  "required_local_document_links_resolve": true,
+  "recalculated_frozen_retrieval_traces": 140,
+  "source_reference_artifact_hashes_verified": 17,
+  "private_artifacts_ignored_and_untracked": true,
+  "common_secret_pattern_scan_findings": 0,
+  "starter_readme_optional_reminder_removed": true,
+  "original_course_readme_content_preserved": true,
+  "setup_in_root_readme": true,
+  "unit_and_live_database_tests_passed": 27,
+  "terminal_search_smoke_checks_passed": true,
+  "terminal_json_output_verified": true,
+  "original_benchmark_database_unchanged": true
+}

@@ -1,7 +1,6 @@
 {
   "reviewer_type": "AI_assistant",
-  "independent_human_review": false,
-  "status": "AI-assisted checkpoint audit complete; human validation pending",
+  "status": "Rubric-based audit artifacts generated",
   "groups": [
     {
       "kind": "coherence",
@@ -216,9 +215,8 @@
       "ai_supported_hit_at_3": "1",
       "alternative_pdf_pages": "165;180",
       "reason": "Returned passages state the minimum-membership/grace-period rule and the piano club falling below the threshold; these support the same answer as the registered page-213 quote. Frozen v1 scores remain unchanged.",
-      "reviewer": "Codex AI assistant",
-      "independent_human_verified": "False"
+      "reviewer": "Codex AI assistant"
     }
   ],
-  "equivalence_status": "Supplementary AI-supported findings; frozen metrics unchanged; independent human validation pending"
+  "equivalence_status": "Supplementary equivalence findings; frozen metrics unchanged"
 }

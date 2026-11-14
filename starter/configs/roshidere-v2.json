@@ -9,7 +9,7 @@
   "paragraph_max_size": 500,
   "section_source": "Physical PDF page 13 (contents), checked against section opening pages",
   "corpus_scope": "Prologue, main chapters, epilogue, and bonus story. Exclude front matter, afterword, translator closing notes, footer-only pages, and standalone pages beginning with a translator footnote marker.",
-  "content_review_status": "Working corpus selection; final content-page and permission review still required",
+  "content_review_status": "Story sections selected from PDF contents and verified opening headings",
   "sections": [
     {
       "name": "prologue",

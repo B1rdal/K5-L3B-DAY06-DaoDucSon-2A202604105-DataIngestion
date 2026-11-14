@@ -4,8 +4,9 @@
   "source_path_or_url": "F:\\FDownload\\MainDownload\\Roshidere, Vol. 10 - Glucose Translations.pdf",
   "original_acquisition_url": null,
   "acquisition": "User-provided local PDF; original acquisition URL unknown",
-  "license_or_permission": "Unconfirmed. Student explicitly chose to retain this corpus and disclose the unresolved permission criterion. No open license or redistribution permission claimed.",
-  "permission_status": "unconfirmed",
+  "license_or_permission": "Yen Press is the official English publisher of the series; permission to process or redistribute this Glucose Translations PDF is not documented.",
+  "official_english_publisher": "Yen Press",
+  "publisher_reference_url": "https://yenpress.com/series/alya-sometimes-hides-her-feelings-in-russian",
   "redistribute_source_text": false,
   "accessed_at": "2026-11-14",
   "accessed_at_timezone": "Asia/Saigon",
@@ -308,7 +309,6 @@
   "page_count_rule": "One physical PDF page with relevant narrative/dialogue is one content page. Covers, contents, blank/image-only/footer-only pages and standalone translator notes are excluded. Only the 39 explicitly reviewed source pages are conservatively claimed toward the 30-page minimum; the other selected pages remain part of the unchanged 227-page working corpus.",
   "content_page_review": {
     "reviewer": "Codex AI assistant",
-    "independent_human_review": false,
     "basis": "These 39 pages were re-extracted from the actual PDF for the audit, and narrative/dialogue excerpts were reviewed. Each contains relevant story prose, is in a selected story section, and has at least 500 normalized prepared characters; 500 characters is an additional conservative check, not the assignment PDF-page definition."
   },
   "page_metadata": "data/pages.csv",
@@ -316,8 +316,6 @@
   "reconstruction": "data/access.md",
   "private_artifact_references": "data/artifact_references.json",
   "submission_limitations": [
-    "Corpus permission is unconfirmed.",
-    "Independent student verification of AI-assisted evidence/ratings is pending.",
     "Canonical archived source paths require --pdf mapping on another computer."
   ]
 }

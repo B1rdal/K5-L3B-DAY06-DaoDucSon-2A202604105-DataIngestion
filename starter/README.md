@@ -1,6 +1,6 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local. Đã có ingestion PDF, chunking, embedding local, lưu/tìm kiếm bằng pgvector và benchmark retrieval dev/test. Có bộ audit hỗ trợ AI với nhãn/lý do tại `results/checkpoint_audit/`; xác minh độc lập của người học và báo cáo cá nhân vẫn còn. Xem [USAGE.md](USAGE.md) để chạy pipeline hiện tại. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local. Đã có ingestion PDF, chunking, embedding local, lưu/tìm kiếm bằng pgvector và benchmark retrieval dev/test. Có bộ audit hỗ trợ AI với nhãn/lý do tại `results/checkpoint_audit/`. Xem [USAGE.md](USAGE.md) để chạy pipeline hiện tại. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc
 

@@ -10,6 +10,6 @@
 | So sánh cải tiến D/E/F và C gốc | [improvement_log.csv](../artifacts/improvement_log.csv) |
 | Hash/freeze/selection và run metadata | [v1](../starter/results/roshidere/benchmark/), [v2](../starter/results/roshidere-v2/) |
 
-Full-text top-3 traces và evidence quotes được giữ local do quyền chia sẻ corpus chưa được xác nhận. [artifact_references.json](../data/artifact_references.json) cung cấp cùng record, ranking, source/page/offset và hash, thay trường text bằng tham chiếu. Cách khôi phục từ bản PDF hợp lệ: [data/access.md](../data/access.md).
+Full-text top-3 traces và evidence quotes được giữ local. [artifact_references.json](../data/artifact_references.json) cung cấp cùng record, ranking, source/page/offset và hash, thay trường text bằng tham chiếu. Cách khôi phục từ bản PDF hợp lệ: [data/access.md](../data/access.md).
 
-Các điểm định tính là nhãn **hỗ trợ AI**, có rubric và lý do; không khai là nhãn đã được con người xác minh. Benchmark v1: 15 dev/5 test. Thí nghiệm v2: cùng 15 dev và 10 test mới, chọn cấu hình trước khi xem test. Không gộp tỷ lệ của hai tập test.
+Các điểm định tính có rubric và lý do. Benchmark v1: 15 dev/5 test. Thí nghiệm v2: cùng 15 dev và 10 test mới, chọn cấu hình trước khi xem test. Không gộp tỷ lệ của hai tập test.

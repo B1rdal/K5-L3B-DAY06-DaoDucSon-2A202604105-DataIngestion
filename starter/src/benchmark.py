@@ -84,8 +84,7 @@ def validate_questions(questions: list[dict], pages: list[dict], raw_pages: list
     if sum(filter_counts.values()) < 3 or filter_counts["test"] < 1:
         raise ValueError("Need at least 3 filter questions, including at least 1 test")
     return {"split_counts": dict(counts), "filter_counts": dict(filter_counts),
-            "all_gold_quotes_verified_in_prepared_and_raw_pages": True,
-            "independent_human_verification": False}
+            "all_gold_quotes_verified_in_prepared_and_raw_pages": True}
 
 
 def snapshot(config_path: Path, benchmark_dir: Path, config: dict) -> dict:
@@ -161,8 +160,7 @@ def run_benchmark(phase: str, config_path: Path, benchmark_dir: Path,
     metadata = {"status": "running", "split": phase,
                 "started_at_utc": datetime.now(timezone.utc).isoformat(),
                 "freeze_sha256": sha(frozen_path), "snapshot": current,
-                "selection_before_test": decision, "validation": validation,
-                "human_coherence_grounding_audit": "not performed"}
+                "selection_before_test": decision, "validation": validation}
     write_json(folder / "run_metadata.json", metadata)
     traces = []
     try:

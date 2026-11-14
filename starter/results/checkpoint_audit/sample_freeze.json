@@ -5,7 +5,7 @@
     "grounding_cases.jsonl": "1cea04bcfae99cf7cbef9e2b63b4e09c6856befd6a99d16bd729c815bc8ee711",
     "metadata_checks.jsonl": "4e97ec58cae261a2e21cdac31e7e695bb420d0c6620f326852dd32e7ca79f5df",
     "pdf_contents_page.txt": "00d99c21cdaa341d8dc7ac6e5c94369d4502d2f9b2c914f853918d29ab3e1371",
-    "protocol.json": "972e2d47d2e7fdfaa80b94b64cc7f7e5c1bb42dd127bc64cb1129cd358f74809",
+    "protocol.json": "f2b1ad95ac77a905b5a5c6e1fdcd2f86e42a6e6a627b8fbb292451019091d0d5",
     "source_pages.jsonl": "00f203752b4600965576c1538613def31913c23959973e9dca8925a0584bff75",
     "source_verification.json": "19e64581d1e72b0ae0e9bc065b5110eb57aee94684cc2d9ab9ed4b42244a5e69"
   },
@@ -13,5 +13,6 @@
     "results\\roshidere\\benchmark\\test\\traces.jsonl": "8cce5d0369d779eadf054a3a4d420f53e04f6312537626653730d5efac25a740",
     "results\\roshidere-v2\\test\\traces.jsonl": "5aaaacd00fb1c2462113d59adc0da35b3d7c30e8930675bf3b5e0009d9c4cdda"
   },
-  "prepared_pages_sha256": "09685a8f19ce0473ed7ac4786325449ebda238f5183ffd857971c8c5efef06ad"
+  "prepared_pages_sha256": "09685a8f19ce0473ed7ac4786325449ebda238f5183ffd857971c8c5efef06ad",
+  "metadata_revision": "artifacts/metadata_revision.json"
 }

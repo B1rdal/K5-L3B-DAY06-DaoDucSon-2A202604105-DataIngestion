@@ -1,6 +1,7 @@
 """Prepare chunks, ingest real local embeddings, or search the pgvector database."""
 import argparse
 from collections import Counter
+from contextlib import redirect_stdout
 from dataclasses import asdict
 from datetime import datetime, timezone
 import hashlib
@@ -17,6 +18,7 @@ import psycopg
 
 from .chunking import by_paragraph, fixed_size
 from .corpus import prepare_pages
+from .console import SearchConsole
 from .embeddings import MyEmbedder
 from .models import DocumentPage
 from .store import PgVectorStore
@@ -155,6 +157,9 @@ def main() -> None:
     search.add_argument("--strategy", choices=("A", "B", "C", "D", "E", "F"))
     search.add_argument("--section", help="Optional user-supplied section; C/D/E/F only")
     search.add_argument("--top-k", type=int, default=3)
+    search.add_argument("--json", action="store_true", help="Print raw JSON for scripts and exports")
+    search.add_argument("--details", action="store_true", help="Show ranking scores and chunk IDs")
+    search.add_argument("--no-color", action="store_true", help="Disable terminal colors")
     args = parser.parse_args()
     active_path = ROOT / "configs" / "active.json"
     active = json.loads(active_path.read_text(encoding="utf-8")) if active_path.exists() else {}
@@ -182,23 +187,51 @@ def main() -> None:
             parser.error("Only strategies C/D/E/F use section filters")
         if args.section and args.section not in {item["name"] for item in config["sections"]}:
             parser.error("Unknown section; see the section names in the configuration")
-        model = MyEmbedder(config["model_name"], config["model_cache"])
-        filters = {"section": args.section} if args.section else None
-        vector = model.embed_query(args.question)
-        if strategy in {"D", "E", "F"}:
-            if config.get("table_name") != "day6_chunks_v2":
-                parser.error("Improved strategies require configs/roshidere-v2.json")
-            from .retrieval import LocalReranker, retrieve
-            store = PgVectorStore(database_url(), model.dimensions, model.storage_model_id, config["table_name"])
-            store.create_schema()
-            reranker = (LocalReranker(config["reranker_name"], config["reranker_cache"])
-                        if strategy == "F" else None)
-            hits = retrieve(store, args.question, vector, strategy, filters, args.top_k, reranker)
+        if not args.question.strip():
+            parser.error("Enter a non-empty question")
+        if args.top_k < 1 or (strategy in {"D", "E", "F"} and args.top_k > 30):
+            parser.error("--top-k must be positive (at most 30 for D/E/F)")
+        if strategy in {"D", "E", "F"} and config.get("table_name") != "day6_chunks_v2":
+            parser.error("Improved strategies require configs/roshidere-v2.json")
+        display = SearchConsole(enabled=not args.json, color=not args.no_color, details=args.details)
+        title = config["document_id"]
+        manifest_path = ROOT.parent / "data" / "manifest.json"
+        if manifest_path.exists():
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            if manifest.get("source_id") == config["document_id"]:
+                title = manifest.get("title", title)
+        display.heading(title, args.question, strategy, args.section)
+        started = time.perf_counter()
+        try:
+            display.status("Loading local search models...")
+            # Library messages stay on stderr; --json remains machine-readable.
+            with redirect_stdout(sys.stderr):
+                model = MyEmbedder(config["model_name"], config["model_cache"])
+                filters = {"section": args.section} if args.section else None
+                vector = model.embed_query(args.question)
+                if strategy in {"D", "E", "F"}:
+                    from .retrieval import LocalReranker, retrieve
+                    store = PgVectorStore(database_url(), model.dimensions, model.storage_model_id, config["table_name"])
+                    store.create_schema()
+                    reranker = (LocalReranker(config["reranker_name"], config["reranker_cache"])
+                                if strategy == "F" else None)
+                    display.status("Finding and ranking passages...")
+                    hits = retrieve(store, args.question, vector, strategy, filters, args.top_k, reranker)
+                else:
+                    store = PgVectorStore(database_url(), model.dimensions, model.storage_model_id)
+                    store.create_schema()
+                    display.status("Finding matching passages...")
+                    hits = store.search(strategy, vector, args.top_k, filters)
+        except psycopg.OperationalError:
+            display.error("Cannot connect to PostgreSQL. Start Day6.cmd and check starter/.env.")
+            raise SystemExit(1)
+        except (ValueError, RuntimeError, OSError) as exc:
+            display.error(str(exc))
+            raise SystemExit(1)
+        if args.json:
+            print(json.dumps(hits, ensure_ascii=False, indent=2))
         else:
-            store = PgVectorStore(database_url(), model.dimensions, model.storage_model_id)
-            store.create_schema()
-            hits = store.search(strategy, vector, args.top_k, filters)
-        print(json.dumps(hits, ensure_ascii=False, indent=2))
+            display.results(hits, time.perf_counter() - started)
 
 
 if __name__ == "__main__":

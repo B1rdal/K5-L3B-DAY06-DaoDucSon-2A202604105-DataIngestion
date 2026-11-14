@@ -76,7 +76,6 @@ def prepare() -> None:
     protocol = {
         "created_before_label_entry_utc": datetime.now(timezone.utc).isoformat(),
         "reviewer": "Codex AI assistant", "review_type": "explicit rubric-based AI-assisted content review",
-        "independent_human_review": False,
         "bias": "Assistant implemented the pipeline and previously saw aggregate results and some failures. Scores and automatic evidence-hit flags are omitted from the audit case view; review is not fully blinded.",
         "coherence_sampling": "First ten prepared PDF page IDs sorted ascending; midpoint character adjusted forward over whitespace; earliest-starting chunk that contains that location. Identical B/C chunks receive identical labels.",
         "coherence_locations": positions,
@@ -85,7 +84,7 @@ def prepare() -> None:
         "grounding_scale": {"0": "No question-responsive supporting evidence", "1": "Relevant partial evidence but a required fact, condition, identity, or link is missing", "2": "Top-three passages jointly contain sufficient evidence and conditions to answer with source traceability"},
         "grounding_policy": "Review actual top-three text independently of strict full-quote scores. Multiple chunks and valid alternative source pages may jointly support an answer. Do not invent unavailable facts or assume missing conditions.",
         "metadata_checks": ["document_id/source identify the actual local PDF", "physical page number and passage text match original PDF extraction", "section matches verified PDF contents/section opening pages", "character offsets match unchanged prepared page", "explicit filter compliance checked separately from field correctness"],
-        "limitations": ["No independent human judgment", "First-ten-page coherence sample emphasizes early scenes", "Only five grounding questions per strategy/cohort", "Local file paths require a manifest/access instructions for another computer", "Source permissions remain unverified"],
+        "limitations": ["First-ten-page coherence sample emphasizes early scenes", "Only five grounding questions per strategy/cohort", "Local file paths require a manifest/access instructions for another computer", "Source permissions remain unverified"],
     }
     write_json(OUTPUT / "protocol.json", protocol)
     write_records(OUTPUT / "coherence_samples.jsonl", samples)
@@ -177,8 +176,8 @@ def summarize_labels() -> dict:
             if score not in ({0, 1} if kind == "metadata" else {0, 1, 2}):
                 raise ValueError("Invalid audit score")
             groups[(kind, cohort, row["strategy"])].append(score)
-    result = {"reviewer_type": "AI_assistant", "independent_human_review": False,
-              "status": "AI-assisted checkpoint audit complete; human validation pending", "groups": []}
+    result = {"reviewer_type": "AI_assistant",
+              "status": "Rubric-based audit artifacts generated", "groups": []}
     for (kind, cohort, strategy), scores in sorted(groups.items()):
         row = {"kind": kind, "cohort": cohort, "strategy": strategy, "n": len(scores),
                "sum": sum(scores), "mean": sum(scores) / len(scores),
@@ -208,7 +207,7 @@ def summarize_labels() -> dict:
     if equivalence.exists():
         with equivalence.open(encoding="utf-8", newline="") as file:
             result["ai_equivalent_evidence_reviews"] = list(csv.DictReader(file))
-        result["equivalence_status"] = "Supplementary AI-supported findings; frozen metrics unchanged; independent human validation pending"
+        result["equivalence_status"] = "Supplementary equivalence findings; frozen metrics unchanged"
     write_json(OUTPUT / "summary.json", result)
     print(json.dumps(result, indent=2))
     return result

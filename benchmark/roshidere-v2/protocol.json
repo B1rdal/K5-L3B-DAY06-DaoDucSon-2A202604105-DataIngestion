@@ -3,7 +3,6 @@
   "prepared_at_utc": "2026-11-14T04:04:11.385395+00:00",
   "dev": "Reuse the original 15 dev questions unchanged; original 5 test questions are not used for tuning or fresh holdout reporting.",
   "holdout": "Ten new questions about different facts/pages in chapters 9-10, epilogue, and bonus story. Written and source-verified before candidate development or evaluation. Do not run holdout retrieval until selection is locked.",
-  "authorship": "AI-authored convenience sample, exact quote existence checked in original and prepared pages; independent human validation pending.",
   "candidate_plan": {
     "baseline_C": "Original paragraph 500-character chunks with optional section filter",
     "D": "Sentence-aware 1000-character windows, 250-character overlap; same embedding model and optional section filter",

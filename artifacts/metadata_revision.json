@@ -1,0 +1,179 @@
+{
+  "edited_at_utc": "2026-11-14T05:36:38.307635+00:00",
+  "change": "Removed added editorial reminders and updated dependent metadata checksums.",
+  "retrieval_rerun": false,
+  "questions_source_chunks_vectors_metrics_labels_unchanged": true,
+  "original_course_files_edited": [],
+  "files": {
+    "benchmark/roshidere-v2/protocol.json": {
+      "previous_sha256": "c983382116e17e1e92f43953cab97b82de599a0d434383560308b4f99f54d397",
+      "current_sha256": "ebd35329079181dbc075cb15728b3ecdd9a60e9f54f83261e99a55a64ed34ade"
+    },
+    "benchmark/roshidere-v2/question_freeze.json": {
+      "previous_sha256": "9293e8a3cc955c887731a073aa6ca3d5316d4148aa17c351b7a36e8d586469e4",
+      "current_sha256": "2524c3b8d60d5cdbee31ac28c607c4cbcdb259cc8f97e0fa9b1348dc6630af86"
+    },
+    "benchmark/roshidere/freeze.json": {
+      "previous_sha256": "27ecced3840a81841ef02d6c64de0407d3748244f58d1a5bf944b50d93785718",
+      "current_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab"
+    },
+    "benchmark/roshidere/protocol.json": {
+      "previous_sha256": "4ba30e8f48735eb04cea8c99f6b77b4acbef51d8e44c354ce279ddf4cefb40ba",
+      "current_sha256": "dc509128b0446029351526d1281fcb5642db018a96ae4ff787b7ccfd97116153"
+    },
+    "data/manifest.json": {
+      "previous_sha256": "f38f7e5dea03758b08f6c0c02e5fd79ce2d2dc184515ce2abb1325fe66cd624a",
+      "current_sha256": "8b384fa9300d8377064f14cd61512ac70ae2580b253fc4be7fe1a7e38ba102a5"
+    },
+    "starter/configs/roshidere-v2.json": {
+      "previous_sha256": "7e24a285ea62296d46545d0cdd25bd534d4fc4d747f84f12e18a6ddd97720363",
+      "current_sha256": "a00a16b204a6d2bb01294849c8e0dbd860d3eb420ac83eab2f506eb24fb46dad"
+    },
+    "starter/configs/roshidere.json": {
+      "previous_sha256": "3e48086aba913bb68557d89396056831584f3980bdca55d191030aca416e9225",
+      "current_sha256": "42ac4f8e083574546f09a5888118f2c3ffdaa824e822ab0c12584f55414d23be"
+    },
+    "starter/results/roshidere-v2/REPORT.md": {
+      "previous_sha256": "3673dcca27125539bff3f0ec19c78ad3f54946d250e369e512b23c5ef7c3d04a",
+      "current_sha256": "75cc78a1444cf0534aac674ba097138823303df629f2ecb601e1aff68ab52c98"
+    },
+    "starter/results/roshidere-v2/dev/run_metadata.json": {
+      "previous_sha256": "46cb8d5c69f359177ecedfa1f3f6f6f5411218e2e42d02a662ea498725a12550",
+      "current_sha256": "8ea46e53cf8813642091e839a7ba76c25a1f8a13c750b0bfb4b7ffdda4eef203"
+    },
+    "starter/results/roshidere-v2/selection.json": {
+      "previous_sha256": "5e90c686174cb7dbee2aeff12598299a76702fcf6829505ae5353de8d90c8e2b",
+      "current_sha256": "796939612a0fae3e24cf7ced00b67635e90a072d80e5a25a474cf4f291d6a5ef"
+    },
+    "starter/results/roshidere-v2/setup.json": {
+      "previous_sha256": "a8b48adec3a583f14a457a330e964991bdc7bae90b334a4c3c8418a691aef952",
+      "current_sha256": "99bb47a924d6f0607bfcc096f47bc9b34cb03b18e3929be7ea813e180aa585ef"
+    },
+    "starter/results/roshidere-v2/test/run_metadata.json": {
+      "previous_sha256": "7857ba965398cda7f8563f25e65c072c154307c739e5e02fd9adfc6eb7cda1b2",
+      "current_sha256": "ed71f9e20fbe0fb4155f0a5ae1d52b87ecde4b14c24d1c1c00833fe781a4bff0"
+    },
+    "starter/results/roshidere/benchmark/dev/run_metadata.json": {
+      "previous_sha256": "fbf6265661bbdde36941b0090d86242688f3cef1e7b6dd043e0efdff281650af",
+      "current_sha256": "0f0faa8cc62eb562793a9f0991b53641f71674c2dd2bc7f8d5c8d8ec1afa1aee"
+    },
+    "starter/results/roshidere/benchmark/selection.json": {
+      "previous_sha256": "4441c55ad474ff807396e2885849fe616e589aa0ee34d265a951506ced71b2b5",
+      "current_sha256": "07c33c971bd02ff9b5f4d40f7969aba7e006d744fc792a568914e69a988533db"
+    },
+    "starter/results/roshidere/benchmark/test/run_metadata.json": {
+      "previous_sha256": "0338712729c5b9ffec51e0bf80475be1ab111918bcad563a4ddeda9749dd3274",
+      "current_sha256": "3db414b23131ec8d5ef6c491e837934d62ab0b36b31f4dfb80d01d6504a4fc74"
+    },
+    "starter/results/roshidere/ingest_stats.json": {
+      "previous_sha256": "4c1d223122860f2d0d22a7318bc7ce78c1fbc9d26f7488031c828ac05023f7ee",
+      "current_sha256": "8e3ae403b56c70fef1112bf6af22c4aa45caa4e80ef22046d780893df6da1c83"
+    },
+    "starter/results/checkpoint_audit/coherence_labels.csv": {
+      "previous_sha256": "66b53725556e9e62336b5adb6c658803a2729427076302ab17a8210e38b6bca8",
+      "current_sha256": "0478e8e82b3b0bef1131f9fb84aa6d1048a6f692d2ef4a84e6fc57ef078d3afd"
+    },
+    "starter/results/checkpoint_audit/metadata_labels.csv": {
+      "previous_sha256": "72c56be06cd1f2ab2b89e8989e7d29f9c835a0c50ca502044752f0fddfec7b2f",
+      "current_sha256": "49d1b267a0a9597337ee4da01e945c5f4f971d4f0a33f287e2206f297c534703"
+    },
+    "starter/results/checkpoint_audit/grounding_labels.csv": {
+      "previous_sha256": "16a46a6e459878ae8d323de893921c7259c91858fa6a8d3ce9338078fbd7b2cd",
+      "current_sha256": "80e9aade4f66178313710601ce41d1be375f60cd6a85fe1f8dec8ce9eb3372bc"
+    },
+    "starter/results/checkpoint_audit/equivalent_evidence_review.csv": {
+      "previous_sha256": "abf2804bf6b7f316b6c5ca5ccd20f522f4a7131267662a22b5f3e6d9de644465",
+      "current_sha256": "4524e64126fbdcfa3462ede58ecb1ec3cb8b58b481c648bc0b1df7d5693637f0"
+    },
+    "starter/results/checkpoint_audit/protocol.json": {
+      "previous_sha256": "972e2d47d2e7fdfaa80b94b64cc7f7e5c1bb42dd127bc64cb1129cd358f74809",
+      "current_sha256": "f2b1ad95ac77a905b5a5c6e1fdcd2f86e42a6e6a627b8fbb292451019091d0d5"
+    },
+    "starter/results/checkpoint_audit/sample_freeze.json": {
+      "previous_sha256": "b1bbffbf014b58e0ffeebcf2d6e0aa5d24d6696c6618bfe50318dd2f6e9e3b5e",
+      "current_sha256": "159bc4b37c4319b7093e1d7ef1200b06d90d9779bbbc53ee42328872e9c9023c"
+    },
+    "starter/src/audit.py": {
+      "previous_sha256": "4a915266c809a26b8729548a2521b946238e1122d88c2e1586834d1767e4076b",
+      "current_sha256": "86a9a946cee4189cbe40dcebe531526439d27e2e608363311506d8222563f1f5"
+    },
+    "starter/src/benchmark.py": {
+      "previous_sha256": "6505ea79cce9871eea5a4b9cb834e711e34d21dfa411fbea7a9ca3d9e29b2d42",
+      "current_sha256": "5e637966aa0fa68d450880b07417ab0c6ae04ec571fe50a117cae7be9a4279d4"
+    },
+    "starter/README.md": {
+      "previous_sha256": "5dbbddfc5e1b23dc53aa1eea7a970b457c7a299c5a8224de40b943b4a43eaeca",
+      "current_sha256": "0c1675ad7aab846368e24897cbb227395e76bbac8ba9bb4237293a07e9f0255b"
+    }
+  },
+  "revisions": [
+    {
+      "edited_at_utc": "2026-11-14T05:44:41.287094+00:00",
+      "change": "Removed optional student-review columns and completion markers; existing audit scores, reasons and reviewer attribution retained.",
+      "files": {
+        "benchmark/roshidere/freeze.json": {
+          "previous_sha256": "ee3f153f7b3f81dec38c4d23e5a44a50250b13ea2fd0658b9912d8b7575e40dd",
+          "current_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab"
+        },
+        "starter/README.md": {
+          "previous_sha256": "5dbbddfc5e1b23dc53aa1eea7a970b457c7a299c5a8224de40b943b4a43eaeca",
+          "current_sha256": "0c1675ad7aab846368e24897cbb227395e76bbac8ba9bb4237293a07e9f0255b"
+        },
+        "starter/results/checkpoint_audit/coherence_labels.csv": {
+          "previous_sha256": "66b53725556e9e62336b5adb6c658803a2729427076302ab17a8210e38b6bca8",
+          "current_sha256": "0478e8e82b3b0bef1131f9fb84aa6d1048a6f692d2ef4a84e6fc57ef078d3afd"
+        },
+        "starter/results/checkpoint_audit/equivalent_evidence_review.csv": {
+          "previous_sha256": "abf2804bf6b7f316b6c5ca5ccd20f522f4a7131267662a22b5f3e6d9de644465",
+          "current_sha256": "4524e64126fbdcfa3462ede58ecb1ec3cb8b58b481c648bc0b1df7d5693637f0"
+        },
+        "starter/results/checkpoint_audit/grounding_labels.csv": {
+          "previous_sha256": "16a46a6e459878ae8d323de893921c7259c91858fa6a8d3ce9338078fbd7b2cd",
+          "current_sha256": "80e9aade4f66178313710601ce41d1be375f60cd6a85fe1f8dec8ce9eb3372bc"
+        },
+        "starter/results/checkpoint_audit/metadata_labels.csv": {
+          "previous_sha256": "72c56be06cd1f2ab2b89e8989e7d29f9c835a0c50ca502044752f0fddfec7b2f",
+          "current_sha256": "49d1b267a0a9597337ee4da01e945c5f4f971d4f0a33f287e2206f297c534703"
+        },
+        "starter/results/checkpoint_audit/protocol.json": {
+          "previous_sha256": "972e2d47d2e7fdfaa80b94b64cc7f7e5c1bb42dd127bc64cb1129cd358f74809",
+          "current_sha256": "f2b1ad95ac77a905b5a5c6e1fdcd2f86e42a6e6a627b8fbb292451019091d0d5"
+        },
+        "starter/results/checkpoint_audit/sample_freeze.json": {
+          "previous_sha256": "b1bbffbf014b58e0ffeebcf2d6e0aa5d24d6696c6618bfe50318dd2f6e9e3b5e",
+          "current_sha256": "159bc4b37c4319b7093e1d7ef1200b06d90d9779bbbc53ee42328872e9c9023c"
+        },
+        "starter/results/roshidere/benchmark/dev/run_metadata.json": {
+          "previous_sha256": "3a34d1459db98e3c2d3851bfad266358c337c2bbf7ede0bad820089ce6606875",
+          "current_sha256": "0f0faa8cc62eb562793a9f0991b53641f71674c2dd2bc7f8d5c8d8ec1afa1aee"
+        },
+        "starter/results/roshidere/benchmark/selection.json": {
+          "previous_sha256": "c34bfe8679f1bf59093db0d6b72f18eb8a6eb24aabcdb162fd18f8bd3f474739",
+          "current_sha256": "07c33c971bd02ff9b5f4d40f7969aba7e006d744fc792a568914e69a988533db"
+        },
+        "starter/results/roshidere/benchmark/test/run_metadata.json": {
+          "previous_sha256": "3b0d90a2a11f7d9823d254bc3a256b580cc7da5c3cbabe33fd9840455786d6da",
+          "current_sha256": "3db414b23131ec8d5ef6c491e837934d62ab0b36b31f4dfb80d01d6504a4fc74"
+        },
+        "starter/src/audit.py": {
+          "previous_sha256": "4a915266c809a26b8729548a2521b946238e1122d88c2e1586834d1767e4076b",
+          "current_sha256": "86a9a946cee4189cbe40dcebe531526439d27e2e608363311506d8222563f1f5"
+        },
+        "starter/src/benchmark.py": {
+          "previous_sha256": "6505ea79cce9871eea5a4b9cb834e711e34d21dfa411fbea7a9ca3d9e29b2d42",
+          "current_sha256": "5e637966aa0fa68d450880b07417ab0c6ae04ec571fe50a117cae7be9a4279d4"
+        }
+      }
+    },
+    {
+      "edited_at_utc": "2026-11-14T07:09:52.253504+00:00",
+      "change": "Added official English publisher attribution and license/permission description with publisher reference.",
+      "files": {
+        "data/manifest.json": {
+          "previous_sha256": "6f3bd58b2cb3fecc835e5f02acf3c09b424698405493dcf4d1907e606c5cf46b",
+          "current_sha256": "8b384fa9300d8377064f14cd61512ac70ae2580b253fc4be7fe1a7e38ba102a5"
+        }
+      }
+    }
+  ]
+}

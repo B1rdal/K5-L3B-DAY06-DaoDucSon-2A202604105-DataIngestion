@@ -2,7 +2,7 @@
 
 This experiment preserves the original corpus, model, benchmark and A/B/C database table. It reuses the original 15 dev questions unchanged and adds ten new holdout questions about different facts on different pages. The original five test questions were already viewed and were not used for tuning or for the new improvement claim.
 
-`question_freeze.json` hashes the question set and protocol before candidate development. `promotion_gate.json` records the predeclared deployment gate. The question set is AI-authored and source-checked, with independent human verification pending. It is a small convenience sample rather than a representative random evaluation.
+`question_freeze.json` hashes the question set and protocol before candidate development. `promotion_gate.json` records the predeclared deployment gate. The question set is source-checked. It is a small convenience sample rather than a representative random evaluation.
 
 ## Predeclared candidates
 

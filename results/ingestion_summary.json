@@ -3,7 +3,6 @@
   "extracted_physical_pages": 270,
   "working_pages": 227,
   "reviewed_content_pages_counted": 39,
-  "permission_status": "unconfirmed",
   "baseline": {
     "model_name": "BAAI/bge-small-en-v1.5",
     "dimensions": 384,

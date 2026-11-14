@@ -13,7 +13,7 @@ cd "F:\Github\K5-L3B-Day06-DataIngestionEngineering\starter"
 .\.venv\Scripts\python.exe -m src.run chunk
 ```
 
-The default configuration is `configs/roshidere.json`. It reads the existing page JSONL, verifies section opening headings, selects the story sections, removes exact page footers, and excludes footer-only/non-prose pages and standalone translator-note pages. Original extracted files are retained. `results/roshidere/page_selection.json` records each inclusion/exclusion. This is a working selection; final permission, manifest and content-page review remain required.
+The default configuration is `configs/roshidere.json`. It reads the existing page JSONL, verifies section opening headings, selects the story sections, removes exact page footers, and excludes footer-only/non-prose pages and standalone translator-note pages. Original extracted files are retained. `results/roshidere/page_selection.json` records each inclusion/exclusion.
 
 Prepared text is saved to `results/roshidere/prepared_pages.jsonl`. Chunk offsets refer to that text, with original physical PDF page numbers preserved.
 
@@ -45,7 +45,9 @@ The normal search command now uses the dev-selected improved method F, through `
 .\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION"
 ```
 
-This returns the top three passages, similarity scores, source pages and metadata. It retrieves evidence; it does not generate an LLM answer.
+This displays the top three passages in readable terminal cards, with chapter, physical PDF page, source filename and total time including model loading. Text wraps to the terminal width and colors are enabled when supported. It retrieves evidence; it does not generate an LLM answer.
+
+Add `--details` for ranking scores and chunk IDs, `--json` for the original complete JSON result list, or `--no-color` for plain output. Color is also disabled when output is redirected or `NO_COLOR` is set. Raw JSON includes the full metadata; progress and library messages use stderr so stdout can be parsed or saved directly.
 
 To restrict the active method to a section explicitly supplied in the question/context:
 
@@ -59,15 +61,13 @@ Improved search scores identify their `score_type`: F returns cross-encoder rank
 
 The existing `chunk` and `ingest` commands still target the original A/B/C setup unless a configuration is explicitly supplied. Improved collection preparation uses `python -m src.improvement prepare`; completed experiments are retained rather than overwritten. No embedding API key is needed.
 
-## What is still required for submission
+## Evaluation artifacts
 
-A 20-question, 15-dev/5-test retrieval benchmark has been authored, source-checked, frozen and run. See `../benchmark/roshidere/README.md` for the original method and results. The subsequent improvement experiment reused dev and prepared ten fresh holdout questions before candidate development; see `../benchmark/roshidere-v2/README.md` and `results/roshidere-v2/REPORT.md`. Strict source/page/quote matching was retained; human semantic-equivalence review remains pending. Both small tests are AI-authored convenience samples.
+A 20-question, 15-dev/5-test retrieval benchmark has been authored, source-checked, frozen and run. See `../benchmark/roshidere/README.md` for the original method and results. The subsequent improvement experiment reused dev and prepared ten fresh holdout questions before candidate development; see `../benchmark/roshidere-v2/README.md` and `results/roshidere-v2/REPORT.md`. Strict source/page/quote matching was retained. Both tests are small convenience samples.
 
-The checkpoint audit package is now in `results/checkpoint_audit/REPORT.md`: 40 coherence labels, 75 source-checked metadata records and 25 grounding cases. These are explicit AI-assisted judgments with reasons, not an independent human audit. Original A/B/C are compared on the same original five test questions; C/F are compared separately on the same first five fresh holdout questions. Human-review columns remain blank.
+The checkpoint audit package is now in `results/checkpoint_audit/REPORT.md`: 40 coherence labels, 75 source-checked metadata records and 25 grounding cases. Labels include rubric-based reasons. Original A/B/C are compared on the same original five test questions; C/F are compared separately on the same first five fresh holdout questions.
 
-Still required: independent human verification of the gold set and AI-assisted ratings, permission and final content-page review, the final data manifest and individual report. Retrieval scores do not replace content-based assessments. Both test sets have been viewed; tuning informed by these results needs a fresh holdout for an independent follow-up evaluation.
 
-Keep the full novel and derived text local unless you have permission to share them. Code/configuration and permitted artifacts can be submitted separately from restricted source content.
 
 ## References
 

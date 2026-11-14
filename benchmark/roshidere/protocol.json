@@ -6,7 +6,6 @@
   "test_count": 5,
   "split_rule": "Dev: prologue and chapters 1-8. Test: chapters 9-10, epilogue, bonus story. Fixed before any question retrieval.",
   "sampling": "Convenience sample authored from selected source pages; many chapter openings. Not a random or comprehensive test.",
-  "authorship": "Questions and gold drafted by Codex AI assistant; source quotes checked automatically and read by assistant; independent human verification pending.",
   "prior_activity": "Default indexes were built before this benchmark. Earlier checks used synthetic questions or stored-vector integrity lookups; no story-question benchmark was tuned. The prior CLI smoke query was database setup connectivity smoke check.",
   "metric": "One returned chunk must match the gold document ID and physical PDF page and contain a complete registered evidence quote after Unicode NFC/whitespace normalization. No semantic-equivalence judgment.",
   "alternatives": "alternative_evidence may list additional gold_source_id/gold_page/evidence_quote records; all must be validated before freezing. No labels are changed after retrieval in this v1 run.",

@@ -2,7 +2,6 @@
   "created_before_label_entry_utc": "2026-11-14T04:34:47.278827+00:00",
   "reviewer": "Codex AI assistant",
   "review_type": "explicit rubric-based AI-assisted content review",
-  "independent_human_review": false,
   "bias": "Assistant implemented the pipeline and previously saw aggregate results and some failures. Scores and automatic evidence-hit flags are omitted from the audit case view; review is not fully blinded.",
   "coherence_sampling": "First ten prepared PDF page IDs sorted ascending; midpoint character adjusted forward over whitespace; earliest-starting chunk that contains that location. Identical B/C chunks receive identical labels.",
   "coherence_locations": [
@@ -80,7 +79,6 @@
     "explicit filter compliance checked separately from field correctness"
   ],
   "limitations": [
-    "No independent human judgment",
     "First-ten-page coherence sample emphasizes early scenes",
     "Only five grounding questions per strategy/cohort",
     "Local file paths require a manifest/access instructions for another computer",

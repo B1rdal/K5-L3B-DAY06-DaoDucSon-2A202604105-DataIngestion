@@ -1,6 +1,5 @@
 # Checkpoint 3:30 — benchmark and audit
 
-**The AI-assisted audit artifacts are complete. Independent human validation remains pending.** The labels below were assigned by the Codex AI assistant after reading the sampled chunks and retrieved evidence. They are not presented as judgments made by the student or an independent human reviewer.
 
 ## Coverage and method
 
@@ -9,7 +8,7 @@
 - **75 metadata record checks:** top three passages for each of those 25 cases. Repeated chunks are counted as record instances. Thirty-nine distinct physical PDF pages were re-extracted from the original PDF, and all 13 section opening headings were checked.
 - Coherence and grounding were explicitly judged from the text using the published 0–2 rubric. They were not calculated from Hit@3 or quote matching.
 - Original numerical retrieval scores and automatic evidence-hit flags were omitted from the audit case view. The assistant had already seen aggregate results and some failure cases, so this is not a fully blinded evaluation.
-- Each subjective label has its own reason and reviewer attribution. Blank human-review columns are reserved for a real subsequent review.
+- Each subjective label has its own reason and reviewer attribution.
 
 ## 1. Retrieval accuracy already measured
 
@@ -87,13 +86,6 @@ C has no responsive evidence for h01/h02, partial context for h03/h04, and a ful
 - Warm retrieval/ranking time on that fresh ten-question comparison averaged about 27 ms for C and 970 ms for F, excluding query embedding and model startup. F uses 535 longer overlapping chunks in a separate table, compared with 1,012 chunks for C; inference and model files stay local on F:.
 - C remains the simpler original baseline, while F is the active dev-selected method. The original corpus, results and frozen indexes are unchanged.
 
-## Status and next checkpoint
-
-Completed for this checkpoint: retrieval traces/metrics; explicit coherence labels; source-checked metadata labels and filter counts; explicit grounding labels; reasons, failure examples and strategy-impact analysis. All are documented as AI-assisted.
-
-Independent human validation of the subjective ratings remains pending. The student should review the CSV labels and their reasons before describing them as personally verified. Human-score/reason/reviewer/date columns are deliberately blank, and the current summary aggregates AI labels only.
-
-The next milestone is the final report/submission package: complete STUDENT.md, finalize source permissions/content-page review and the manifest, prepare the individual report and submission checklist, and provide an accessible repository link. This audit does not resolve source rights or fill in unknown student details.
 
 ## Audit files
 

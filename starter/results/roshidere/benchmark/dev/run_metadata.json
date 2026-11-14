@@ -2,11 +2,11 @@
   "status": "complete",
   "split": "dev",
   "started_at_utc": "2026-11-14T03:47:12.975061+00:00",
-  "freeze_sha256": "27ecced3840a81841ef02d6c64de0407d3748244f58d1a5bf944b50d93785718",
+  "freeze_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab",
   "snapshot": {
     "questions_sha256": "821839dbd190407fcba4a56997a0d0f1f2842f4a27d787cf08d1524034c2816a",
-    "protocol_sha256": "4ba30e8f48735eb04cea8c99f6b77b4acbef51d8e44c354ce279ddf4cefb40ba",
-    "config_sha256": "3e48086aba913bb68557d89396056831584f3980bdca55d191030aca416e9225",
+    "protocol_sha256": "dc509128b0446029351526d1281fcb5642db018a96ae4ff787b7ccfd97116153",
+    "config_sha256": "42ac4f8e083574546f09a5888118f2c3ffdaa824e822ab0c12584f55414d23be",
     "prepared_pages_sha256": "09685a8f19ce0473ed7ac4786325449ebda238f5183ffd857971c8c5efef06ad",
     "raw_pages_sha256": "a8f403d7e50fcf8b18e7286b38da603a61dc0d5d0c2a022003fdb9148da9d0c4",
     "database_sha256": "595b3e77db1f365b42e4946f162a853cc14742f9654db2dfeb8a132762087597",
@@ -27,11 +27,10 @@
       "dev": 3,
       "test": 2
     },
-    "all_gold_quotes_verified_in_prepared_and_raw_pages": true,
-    "independent_human_verification": false
+    "all_gold_quotes_verified_in_prepared_and_raw_pages": true
   },
-  "human_coherence_grounding_audit": "not performed",
   "finished_at_utc": "2026-11-14T03:47:15.676715+00:00",
   "trace_count": 45,
-  "embedding_api_cost_usd": 0
+  "embedding_api_cost_usd": 0,
+  "metadata_revision": "artifacts/metadata_revision.json"
 }

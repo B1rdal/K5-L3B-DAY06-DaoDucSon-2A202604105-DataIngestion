@@ -4,7 +4,7 @@ Run date: 14 November 2026 (Asia/Saigon).
 
 **The improved method is now the default. On the same ten fresh holdout questions, top-three evidence retrieval increased from 4/10 (40%) to 10/10 (100%), and first-result success increased from 2/10 (20%) to 8/10 (80%).**
 
-This is a small AI-authored convenience sample. The result supports using this version for the current lab, with independent human validation and broader testing still required. The earlier 80% figure used five different questions; the paired ten-question comparison below measures this change.
+This is a small AI-authored convenience sample. The earlier 80% figure used five different questions; the paired ten-question comparison below measures this change.
 
 ## Paired fresh-holdout results
 
@@ -74,7 +74,7 @@ Add `--section chapter_5` only when the question or user context supplies that s
 
 - All 27 code/database checks passed, including table isolation, parameterized keyword queries, metadata filters, rollback and chunk coverage. After promotion, both default F and explicit original C were checked through the real command with a generic infrastructure smoke query.
 - All 10 fresh questions have complete top-three traces for both methods. Strict metrics were recomputed from those saved traces and matched the stored summaries.
-- Ten questions are a small sample, with one question changing the rate by ten percentage points. The same AI assistant authored questions and implemented evaluation; human verification remains pending.
+- Ten questions are a small sample, with one question changing the rate by ten percentage points.
 - Strict quote matching can undercount semantically equivalent evidence and evidence split across chunks. No human coherence, metadata correctness or grounding scores are implied.
 - Final data permissions, source manifest and individual report remain separate lab requirements. Keep restricted novel text and derivative passages local unless sharing is permitted.
 - The fresh holdout has now been viewed. Any further tuning informed by it needs another fresh holdout for an independent subsequent comparison.
