@@ -14,75 +14,65 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 Bài làm dùng Python, embedding local `BAAI/bge-small-en-v1.5` (384 chiều) và PostgreSQL + pgvector. Dữ liệu, cấu hình và kết quả: [manifest](data/manifest.json), [báo cáo cá nhân](report/individual/2A202604105_DaoDucSon.md), [kết quả](results/README.md), [danh mục minh chứng](SUBMISSION_GUIDE.md).
 
-### 1. Cài môi trường và bật database
+### 1. Setup tự động trên Windows
 
-Cần Python 3.13, Docker Desktop đang chạy và Docker Compose. Clone repo vào `F:\Github\K5-L3B-Day06-DataIngestionEngineering` nếu chưa có; các lệnh dưới đây chạy trong PowerShell. Môi trường Python và cache model của cấu hình hiện tại nằm trên F:. Lần tải model đầu tiên cần mạng; inference chạy local, không cần API key.
+Cần Python 3.13, Docker Desktop đang chạy và kết nối mạng cho lần tải package/model đầu tiên. Clone hoặc giải nén repo vào **bất kỳ thư mục nào**; tên ổ đĩa và khoảng trắng trong đường dẫn đều được hỗ trợ.
+
+Double-click [Setup Day6.cmd](Setup%20Day6.cmd) tại thư mục gốc repo. Hoặc mở PowerShell tại thư mục đó và chạy:
 
 ```powershell
-cd "F:\Github\K5-L3B-Day06-DataIngestionEngineering\starter"
-if (-not (Test-Path .venv\Scripts\python.exe)) { py -3.13 -m venv .venv }
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-if (-not (Test-Path .env)) { Copy-Item .env.example .env }
-docker compose -p day6_student_starter up -d --wait
-.\.venv\Scripts\python.exe scripts\check_setup.py
+powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1
 ```
 
-Compose lưu dữ liệu trong volume `pg_data` và mở database `day6_lab` tại `127.0.0.1:55433`; `.env.example` có sẵn connection string cho môi trường local. Bộ phiên bản đã đo trên Windows/Python 3.13 nằm trong [requirements-lock.txt](starter/requirements-lock.txt). Khi không dùng nữa, chạy `docker compose -p day6_student_starter stop` từ `starter/`.
+Script tự xác định vị trí repo, tạo `starter/.venv`, cài dependencies, tạo `.env` nếu chưa có, bật PostgreSQL + pgvector và chuẩn bị index A/B/C/F. Nếu thiếu dữ liệu local, script hỏi đường dẫn PDF; có thể chọn file ở bất kỳ thư mục nào. PDF phải khớp SHA-256 trong [manifest](data/manifest.json). Chi tiết nguồn và cách khôi phục: [data/access.md](data/access.md).
 
-Trên máy đã cài sẵn của học viên có thể double-click `F:\CodexTools\Start Day6.cmd`, rồi bỏ qua bước tạo môi trường và cài package ở trên.
+Các index đã có và đúng nội dung được dùng lại. Khi cần dựng mới, script đọc các chunk đã lưu để tạo embedding thật và ghi database; số đo, trace và kết quả thí nghiệm gốc được giữ nguyên.
 
-### 2. Khôi phục dữ liệu và tạo index trên database mới
+### 2. Chạy tìm kiếm
 
-Corpus là **Roshidere, Vol. 10 — Glucose Translations**. PDF và full-text evidence được giữ local; bản chia sẻ chứa source/page/offset/hash. Dùng bản PDF khớp SHA-256 trong manifest và đổi đường dẫn dưới đây nếu file nằm ở nơi khác. Chi tiết ánh xạ nguồn: [data/access.md](data/access.md).
-
-Từ `starter/`:
+Double-click [Search Day6.cmd](Search%20Day6.cmd), rồi nhập câu hỏi. Launcher tự tìm môi trường Python và bật database. Hoặc từ thư mục gốc repo:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\submission.py restore --pdf "F:\FDownload\MainDownload\Roshidere, Vol. 10 - Glucose Translations.pdf"
-.\.venv\Scripts\python.exe -m src.run ingest
-.\.venv\Scripts\python.exe -m src.run search "Why was the piano club demoted?" --strategy C
-```
-
-Restore kiểm tra hash và khôi phục 17 file trang/chunk/câu hỏi/trace. Ingest tạo lại A/B/C bằng embedding thật. Nếu database trên máy hiện tại đã có index, chỉ cần chạy search. Kết quả hiển thị thành các khung passage có chapter và trang PDF; đây là truy xuất evidence, chưa sinh câu trả lời LLM.
-
-### 3. Dùng chiến lược F đã cải tiến
-
-Máy hiện tại đã có bảng `day6_chunks_v2`; search mặc định dùng F (hybrid + reranker local). Trên database mới, sau bước 2, dùng cấu hình có thư mục output riêng để tạo lại index F và giữ kết quả thí nghiệm gốc:
-
-```powershell
-$rebuildConfig = Get-Content configs\roshidere-v2.json -Raw | ConvertFrom-Json
-$rebuildConfig.output_dir = "results/roshidere-v2-rebuild"
-$rebuildJson = $rebuildConfig | ConvertTo-Json -Depth 20
-[IO.File]::WriteAllText((Join-Path $PWD.Path "configs\roshidere-v2-rebuild.json"), $rebuildJson, [Text.UTF8Encoding]::new($false))
-.\.venv\Scripts\python.exe -m src.improvement prepare --config configs\roshidere-v2-rebuild.json
-.\.venv\Scripts\python.exe -m src.run --config configs\roshidere-v2-rebuild.json search "Why was the piano club demoted?" --strategy F
-```
-
-Lệnh prepare dùng một thư mục output mới chưa tồn tại. Các truy vấn thường dùng trên máy đã có index:
-
-```powershell
-.\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION"
+cd starter
+.\.venv\Scripts\python.exe -m src.run search "Why was the piano club demoted?"
 .\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION" --section chapter_5
 .\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION" --strategy C
 ```
 
-Chỉ dùng filter khi câu hỏi/ngữ cảnh cung cấp section. Cấu hình: [A/B/C](starter/configs/roshidere.json), [D/E/F](starter/configs/roshidere-v2.json), [mặc định](starter/configs/active.json).
+Search mặc định dùng F (hybrid + reranker local). Terminal hiển thị các khung passage có chapter, trang PDF và tổng thời gian gồm tải model. Đây là truy xuất evidence, chưa sinh câu trả lời LLM. Chỉ dùng filter khi câu hỏi/ngữ cảnh cung cấp section.
 
-Terminal tự dùng màu khi được hỗ trợ, xuống dòng passage theo chiều rộng cửa sổ và hiển thị tổng thời gian gồm tải model. Thêm `--details` để xem score/chunk ID, `--json` để xuất JSON đầy đủ cho script, hoặc `--no-color` để tắt màu. Score là giá trị xếp hạng, không phải phần trăm độ tin cậy.
+Thêm `--details` để xem score/chunk ID, `--json` để xuất JSON đầy đủ cho script, hoặc `--no-color` để tắt màu. Score là giá trị xếp hạng, không phải phần trăm độ tin cậy.
+
+### 3. Đường dẫn và cấu hình local
+
+- Môi trường Python: `starter/.venv` trong bản repo đang dùng.
+- Cache embedding/reranker mặc định: `starter/.cache/fastembed` và `starter/.cache/rerankers`; các đường dẫn này luôn tính từ `starter/`, không phụ thuộc thư mục đang mở terminal.
+- Có thể đặt `DAY6_MODEL_CACHE` và `DAY6_RERANKER_CACHE` trong `starter/.env` để chọn cache khác hoặc dùng lại model đã tải. Giá trị tuyệt đối hoặc tương đối đều được hỗ trợ. `.env` và `.cache` được ignore khỏi Git.
+- Database mặc định: `127.0.0.1:55433`, tên `day6_lab`, dữ liệu trong Docker volume `pg_data`. Connection string mẫu nằm trong `.env.example`; Compose dùng đường dẫn tương đối tới `init.sql`.
+- Đường dẫn nguồn trong trace là provenance của lần chạy gốc; chúng không phải đường dẫn cài đặt và không được dùng để mở PDF trên máy người chấm. Đối số `--pdf` cung cấp vị trí file thực tế khi restore.
+
+### 4. Setup thủ công và kiểm tra
+
+Từ thư mục gốc repo, trong PowerShell:
 
 ```powershell
-.\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION" --details
-.\.venv\Scripts\python.exe -m src.run search "YOUR QUESTION" --json
-```
-
-### 4. Kiểm tra và xem benchmark
-
-```powershell
+cd starter
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+docker compose -p day6_student_starter up -d --wait
+.\.venv\Scripts\python.exe scripts\check_setup.py
+.\.venv\Scripts\python.exe scripts\submission.py restore --pdf "<path-to-matching-PDF>"
+.\.venv\Scripts\python.exe scripts\prepare_database.py
 .\.venv\Scripts\python.exe scripts\submission.py check
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
+Trên macOS/Linux: dùng `python3 -m venv .venv`, cài `requirements.txt`, và thay `.venv\Scripts\python.exe` bằng `.venv/bin/python`. Các launcher `.cmd`/`.ps1` dành cho Windows; code Python dùng đường dẫn theo vị trí repo trên mọi nền tảng.
+
 Kiểm thử database chạy khi có `DAY6_TEST_DATABASE_URL`; chúng dùng schema test riêng. Kết quả đã lưu gồm 20 câu v1 (15 dev/5 test), A/B/C, metrics, trace và audit. Thí nghiệm cải tiến có 10 câu test mới. Xem [benchmark v1](benchmark/roshidere/README.md), [v2](benchmark/roshidere-v2/README.md) và [results](results/README.md) để tái lập từng pha vào thư mục kết quả mới, với cùng snapshot dữ liệu/model. Thông tin thí nghiệm gốc và bản sửa metadata được giữ riêng trong artifacts.
+
+Dừng database nhưng giữ dữ liệu bằng `docker compose -p day6_student_starter stop` từ `starter/`.
 
 ## Bắt đầu nhanh
 

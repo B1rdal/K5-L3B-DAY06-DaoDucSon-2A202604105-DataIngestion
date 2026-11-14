@@ -1,7 +1,7 @@
 {
   "selected_strategy": "C",
   "selected_at_utc": "2026-11-14T03:47:15.674869+00:00",
-  "freeze_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab",
+  "freeze_sha256": "808a6d3bac1b08c963da0d5247661899a6ddf6418ae831eeea03e96e02dacb4d",
   "rule": [
     "highest dev Evidence Hit@3 count",
     "highest dev Hit@1 count",

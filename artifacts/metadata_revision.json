@@ -15,7 +15,7 @@
     },
     "benchmark/roshidere/freeze.json": {
       "previous_sha256": "27ecced3840a81841ef02d6c64de0407d3748244f58d1a5bf944b50d93785718",
-      "current_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab"
+      "current_sha256": "808a6d3bac1b08c963da0d5247661899a6ddf6418ae831eeea03e96e02dacb4d"
     },
     "benchmark/roshidere/protocol.json": {
       "previous_sha256": "4ba30e8f48735eb04cea8c99f6b77b4acbef51d8e44c354ce279ddf4cefb40ba",
@@ -27,11 +27,11 @@
     },
     "starter/configs/roshidere-v2.json": {
       "previous_sha256": "7e24a285ea62296d46545d0cdd25bd534d4fc4d747f84f12e18a6ddd97720363",
-      "current_sha256": "a00a16b204a6d2bb01294849c8e0dbd860d3eb420ac83eab2f506eb24fb46dad"
+      "current_sha256": "76159d2e675f78bb1be96fec5e32f9016cd260139927f7891145ee50f27f8d1c"
     },
     "starter/configs/roshidere.json": {
       "previous_sha256": "3e48086aba913bb68557d89396056831584f3980bdca55d191030aca416e9225",
-      "current_sha256": "42ac4f8e083574546f09a5888118f2c3ffdaa824e822ab0c12584f55414d23be"
+      "current_sha256": "c3142297f8b3e0a8c004153c7a46e143f54efac12408509c16fbd380d7824892"
     },
     "starter/results/roshidere-v2/REPORT.md": {
       "previous_sha256": "3673dcca27125539bff3f0ec19c78ad3f54946d250e369e512b23c5ef7c3d04a",
@@ -39,35 +39,35 @@
     },
     "starter/results/roshidere-v2/dev/run_metadata.json": {
       "previous_sha256": "46cb8d5c69f359177ecedfa1f3f6f6f5411218e2e42d02a662ea498725a12550",
-      "current_sha256": "8ea46e53cf8813642091e839a7ba76c25a1f8a13c750b0bfb4b7ffdda4eef203"
+      "current_sha256": "feaec8e27bede12a9808f21e4cd9fd8ea0ed32fbe38348df7827a394eb25489a"
     },
     "starter/results/roshidere-v2/selection.json": {
       "previous_sha256": "5e90c686174cb7dbee2aeff12598299a76702fcf6829505ae5353de8d90c8e2b",
-      "current_sha256": "796939612a0fae3e24cf7ced00b67635e90a072d80e5a25a474cf4f291d6a5ef"
+      "current_sha256": "b5f625003152beb8d99726b3298d97f40f5ab83500eba5cb095a99d06b65869c"
     },
     "starter/results/roshidere-v2/setup.json": {
       "previous_sha256": "a8b48adec3a583f14a457a330e964991bdc7bae90b334a4c3c8418a691aef952",
-      "current_sha256": "99bb47a924d6f0607bfcc096f47bc9b34cb03b18e3929be7ea813e180aa585ef"
+      "current_sha256": "bb2d0377a2ae282b6b24b3d62a0215920adfa86785f8643bed84137fafe20868"
     },
     "starter/results/roshidere-v2/test/run_metadata.json": {
       "previous_sha256": "7857ba965398cda7f8563f25e65c072c154307c739e5e02fd9adfc6eb7cda1b2",
-      "current_sha256": "ed71f9e20fbe0fb4155f0a5ae1d52b87ecde4b14c24d1c1c00833fe781a4bff0"
+      "current_sha256": "d7fd24077e01142caeb510ef0c9e96d66ab455ca4ba70c1050440f797ce6b360"
     },
     "starter/results/roshidere/benchmark/dev/run_metadata.json": {
       "previous_sha256": "fbf6265661bbdde36941b0090d86242688f3cef1e7b6dd043e0efdff281650af",
-      "current_sha256": "0f0faa8cc62eb562793a9f0991b53641f71674c2dd2bc7f8d5c8d8ec1afa1aee"
+      "current_sha256": "c660a93863bd06741f156ec70a268b0fb8dd1dbff729c89a53dd35d4d977dde1"
     },
     "starter/results/roshidere/benchmark/selection.json": {
       "previous_sha256": "4441c55ad474ff807396e2885849fe616e589aa0ee34d265a951506ced71b2b5",
-      "current_sha256": "07c33c971bd02ff9b5f4d40f7969aba7e006d744fc792a568914e69a988533db"
+      "current_sha256": "f8152452763cef846d9f14e2a1e02a1787b7a6bf22be2caf1617ae9aa38971e7"
     },
     "starter/results/roshidere/benchmark/test/run_metadata.json": {
       "previous_sha256": "0338712729c5b9ffec51e0bf80475be1ab111918bcad563a4ddeda9749dd3274",
-      "current_sha256": "3db414b23131ec8d5ef6c491e837934d62ab0b36b31f4dfb80d01d6504a4fc74"
+      "current_sha256": "cf5e503e84cc9b6a7515e421fc25c3f3493b8cb74619359dee5d05cf1ef4a486"
     },
     "starter/results/roshidere/ingest_stats.json": {
       "previous_sha256": "4c1d223122860f2d0d22a7318bc7ce78c1fbc9d26f7488031c828ac05023f7ee",
-      "current_sha256": "8e3ae403b56c70fef1112bf6af22c4aa45caa4e80ef22046d780893df6da1c83"
+      "current_sha256": "81e42971c752371bbb3c4108ee4f5b84525de6ab28f2ab47a6d96b9111bd6ed8"
     },
     "starter/results/checkpoint_audit/coherence_labels.csv": {
       "previous_sha256": "66b53725556e9e62336b5adb6c658803a2729427076302ab17a8210e38b6bca8",
@@ -103,7 +103,7 @@
     },
     "starter/README.md": {
       "previous_sha256": "5dbbddfc5e1b23dc53aa1eea7a970b457c7a299c5a8224de40b943b4a43eaeca",
-      "current_sha256": "0c1675ad7aab846368e24897cbb227395e76bbac8ba9bb4237293a07e9f0255b"
+      "current_sha256": "1887fb9c5fea3b3d6ff6693406a4ea45b2fc0fd967720cb00c8b5375f44476a2"
     }
   },
   "revisions": [
@@ -172,6 +172,61 @@
         "data/manifest.json": {
           "previous_sha256": "6f3bd58b2cb3fecc835e5f02acf3c09b424698405493dcf4d1907e606c5cf46b",
           "current_sha256": "8b384fa9300d8377064f14cd61512ac70ae2580b253fc4be7fe1a7e38ba102a5"
+        }
+      }
+    },
+    {
+      "edited_at_utc": "2026-11-14T14:36:33.620230+00:00",
+      "change": "Moved runtime model caches to repository-relative paths with ignored local environment overrides; updated dependent configuration hashes.",
+      "questions_source_chunks_vectors_metrics_labels_unchanged": true,
+      "files": {
+        "starter/results/roshidere/ingest_stats.json": {
+          "previous_sha256": "8e3ae403b56c70fef1112bf6af22c4aa45caa4e80ef22046d780893df6da1c83",
+          "current_sha256": "81e42971c752371bbb3c4108ee4f5b84525de6ab28f2ab47a6d96b9111bd6ed8"
+        },
+        "benchmark/roshidere/freeze.json": {
+          "previous_sha256": "b17816ff89b3b8ad08a9405f4c7148764c2f1e7abab46f4cad90de7b1f05ceab",
+          "current_sha256": "808a6d3bac1b08c963da0d5247661899a6ddf6418ae831eeea03e96e02dacb4d"
+        },
+        "starter/results/roshidere/benchmark/selection.json": {
+          "previous_sha256": "07c33c971bd02ff9b5f4d40f7969aba7e006d744fc792a568914e69a988533db",
+          "current_sha256": "f8152452763cef846d9f14e2a1e02a1787b7a6bf22be2caf1617ae9aa38971e7"
+        },
+        "starter/results/roshidere/benchmark/dev/run_metadata.json": {
+          "previous_sha256": "0f0faa8cc62eb562793a9f0991b53641f71674c2dd2bc7f8d5c8d8ec1afa1aee",
+          "current_sha256": "c660a93863bd06741f156ec70a268b0fb8dd1dbff729c89a53dd35d4d977dde1"
+        },
+        "starter/results/roshidere/benchmark/test/run_metadata.json": {
+          "previous_sha256": "3db414b23131ec8d5ef6c491e837934d62ab0b36b31f4dfb80d01d6504a4fc74",
+          "current_sha256": "cf5e503e84cc9b6a7515e421fc25c3f3493b8cb74619359dee5d05cf1ef4a486"
+        },
+        "starter/results/roshidere-v2/setup.json": {
+          "previous_sha256": "99bb47a924d6f0607bfcc096f47bc9b34cb03b18e3929be7ea813e180aa585ef",
+          "current_sha256": "bb2d0377a2ae282b6b24b3d62a0215920adfa86785f8643bed84137fafe20868"
+        },
+        "starter/results/roshidere-v2/selection.json": {
+          "previous_sha256": "796939612a0fae3e24cf7ced00b67635e90a072d80e5a25a474cf4f291d6a5ef",
+          "current_sha256": "b5f625003152beb8d99726b3298d97f40f5ab83500eba5cb095a99d06b65869c"
+        },
+        "starter/results/roshidere-v2/dev/run_metadata.json": {
+          "previous_sha256": "8ea46e53cf8813642091e839a7ba76c25a1f8a13c750b0bfb4b7ffdda4eef203",
+          "current_sha256": "feaec8e27bede12a9808f21e4cd9fd8ea0ed32fbe38348df7827a394eb25489a"
+        },
+        "starter/results/roshidere-v2/test/run_metadata.json": {
+          "previous_sha256": "ed71f9e20fbe0fb4155f0a5ae1d52b87ecde4b14c24d1c1c00833fe781a4bff0",
+          "current_sha256": "d7fd24077e01142caeb510ef0c9e96d66ab455ca4ba70c1050440f797ce6b360"
+        },
+        "starter/configs/roshidere-v2.json": {
+          "previous_sha256": "a00a16b204a6d2bb01294849c8e0dbd860d3eb420ac83eab2f506eb24fb46dad",
+          "current_sha256": "76159d2e675f78bb1be96fec5e32f9016cd260139927f7891145ee50f27f8d1c"
+        },
+        "starter/configs/roshidere.json": {
+          "previous_sha256": "42ac4f8e083574546f09a5888118f2c3ffdaa824e822ab0c12584f55414d23be",
+          "current_sha256": "c3142297f8b3e0a8c004153c7a46e143f54efac12408509c16fbd380d7824892"
+        },
+        "starter/README.md": {
+          "previous_sha256": "0c1675ad7aab846368e24897cbb227395e76bbac8ba9bb4237293a07e9f0255b",
+          "current_sha256": "1887fb9c5fea3b3d6ff6693406a4ea45b2fc0fd967720cb00c8b5375f44476a2"
         }
       }
     }

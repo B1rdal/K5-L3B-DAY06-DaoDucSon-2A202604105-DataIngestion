@@ -58,7 +58,7 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Adapter hiện tại dùng FastEmbed 0.9.1 với `BAAI/bge-small-en-v1.5` (384 chiều), chạy local bằng ONNX CPU. Tên model và cache nằm trong `configs/roshidere.json`; mặc định cache ở `F:/CodexTools/models/fastembed`. Không cần API key. Cùng model/weights và tokenizer được dùng cho A/B/C và query; hash cùng phiên bản được ghi trong `results/roshidere/ingest_stats.json`. Các ô API trong `.env.example` dành cho adapter mở rộng chưa hiện thực; **không commit `.env`**.
+Adapter hiện tại dùng FastEmbed 0.9.1 với `BAAI/bge-small-en-v1.5` (384 chiều), chạy local bằng ONNX CPU. Tên model và cache nằm trong `configs/roshidere.json`; mặc định cache ở `starter/.cache/fastembed` (theo vị trí repo); có thể đổi bằng `DAY6_MODEL_CACHE` trong `.env`. Không cần API key. Cùng model/weights và tokenizer được dùng cho A/B/C và query; hash cùng phiên bản được ghi trong `results/roshidere/ingest_stats.json`. Các ô API trong `.env.example` dành cho adapter mở rộng chưa hiện thực; **không commit `.env`**.
 
 ## 3. Hoàn thiện pipeline
 
@@ -77,7 +77,7 @@ Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái
 Chạy từ `starter/`, sau khi kích hoạt `.venv`:
 
 ```powershell
-python -m src.ingestion "F:\path\document.pdf" --document-id my-document --output results\pages.jsonl
+python -m src.ingestion "<path-to-document.pdf>" --document-id my-document --output results\pages.jsonl
 ```
 
 `--source` có thể ghi URL nguồn; mặc định là đường dẫn PDF tuyệt đối. Bỏ `--output` để chỉ kiểm tra và in thống kê. Mỗi dòng JSONL chứa `document_id`, `source`, `page` (số trang vật lý, bắt đầu từ 1), `text` và `metadata`. Metadata ghi `extraction_status` (`ok`, `empty`, `error`), `character_count`, và thông tin lỗi nếu có. Trang rỗng/lỗi vẫn được giữ để không làm lệch số trang; cảnh báo và lỗi được ghi ra stderr. Lệnh trả mã lỗi nếu có trang trích xuất lỗi hoặc toàn bộ PDF không có text.

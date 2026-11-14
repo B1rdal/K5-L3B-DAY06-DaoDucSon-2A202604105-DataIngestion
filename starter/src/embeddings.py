@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 from typing import Protocol
 
+from .paths import cache_path
+
 
 class Embedder(Protocol):
     model_name: str
@@ -24,8 +26,8 @@ class MyEmbedder:
     """Download model weights to the chosen cache, then embed text locally."""
 
     def __init__(self, model_name: str = "BAAI/bge-small-en-v1.5",
-                 cache_dir: str | Path = "F:/CodexTools/models/fastembed") -> None:
-        cache = Path(cache_dir).resolve()
+                 cache_dir: str | Path | None = None) -> None:
+        cache = cache_path("fastembed", cache_dir)
         cache.mkdir(parents=True, exist_ok=True)
         os.environ["HF_HOME"] = str(cache / "huggingface")
         os.environ["HF_HUB_CACHE"] = str(cache / "huggingface" / "hub")

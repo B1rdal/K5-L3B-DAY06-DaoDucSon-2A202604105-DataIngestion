@@ -1,10 +1,9 @@
 # Using the local document search pipeline
 
-Start Docker/PostgreSQL first. On this computer, double-click `F:\CodexTools\Start Day6.cmd`.
-Open PowerShell in `starter/` and use the project's Python:
+Run `Setup Day6.cmd` from the repository first, then use `Search Day6.cmd` to search. Both launchers detect their own location. For direct commands, open PowerShell at the repository root and use the project's Python:
 
 ```powershell
-cd "F:\Github\K5-L3B-Day06-DataIngestionEngineering\starter"
+cd starter
 ```
 
 ## Prepare the chunks
@@ -31,7 +30,7 @@ Chunks never cross page boundaries. Paragraph boundaries are inferred from blank
 .\.venv\Scripts\python.exe -m src.run ingest
 ```
 
-This prepares chunks, loads the real `BAAI/bge-small-en-v1.5` embedding model using FastEmbed, and writes text, source pages, metadata, and 384-dimensional vectors into the PostgreSQL `day6_chunks` table. Model downloads and caches are on F:. Inference runs locally on CPU, and document text is not sent to an embedding API. The model is intended for English and has a 512-token input limit; the configured chunks are limited to 500 characters. Query and document processing use FastEmbed's paired methods without additional prefixes.
+This prepares chunks, loads the real `BAAI/bge-small-en-v1.5` embedding model using FastEmbed, and writes text, source pages, metadata, and 384-dimensional vectors into the PostgreSQL `day6_chunks` table. Model caches default to `.cache/fastembed` and `.cache/rerankers` under `starter/`, with optional `DAY6_MODEL_CACHE` / `DAY6_RERANKER_CACHE` overrides in `.env`. Inference runs locally on CPU, and document text is not sent to an embedding API. The model is intended for English and has a 512-token input limit; the configured chunks are limited to 500 characters. Query and document processing use FastEmbed's paired methods without additional prefixes.
 
 Rerunning replaces the configured document's rows in each strategy inside a transaction, removing stale chunks and avoiding duplicates. Other documents are retained. B and C reuse the same embeddings. Model/hash or dimension mismatches are rejected to avoid mixing incompatible vectors.
 

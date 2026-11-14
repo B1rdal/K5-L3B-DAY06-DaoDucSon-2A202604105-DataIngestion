@@ -3,7 +3,7 @@
   "pages_path": "results/roshidere_text_pages.jsonl",
   "output_dir": "results/roshidere-v2",
   "model_name": "BAAI/bge-small-en-v1.5",
-  "model_cache": "F:/CodexTools/models/fastembed",
+  "model_cache": ".cache/fastembed",
   "chunk_size": 500,
   "overlap": 50,
   "paragraph_max_size": 500,
@@ -95,7 +95,7 @@
   "sentence_window_size": 1000,
   "sentence_window_overlap": 250,
   "reranker_name": "Xenova/ms-marco-MiniLM-L-6-v2",
-  "reranker_cache": "F:/CodexTools/models/rerankers",
+  "reranker_cache": ".cache/rerankers",
   "default_strategy": "F",
   "retrieval_method": "hybrid_rerank",
   "parent_config": "configs/roshidere.json"

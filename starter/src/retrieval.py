@@ -5,6 +5,7 @@ import math
 from pathlib import Path
 
 from .store import PgVectorStore
+from .paths import cache_path
 
 
 def reciprocal_rank_fusion(rankings: list[list[dict]], limit: int = 30, k: int = 60) -> list[dict]:
@@ -28,10 +29,12 @@ def reciprocal_rank_fusion(rankings: list[list[dict]], limit: int = 30, k: int =
 
 class LocalReranker:
     def __init__(self, model_name: str = "Xenova/ms-marco-MiniLM-L-6-v2",
-                 cache_dir: str | Path = "F:/CodexTools/models/rerankers") -> None:
+                 cache_dir: str | Path | None = None) -> None:
         from fastembed.rerank.cross_encoder import TextCrossEncoder
+        cache = cache_path("rerankers", cache_dir)
+        cache.mkdir(parents=True, exist_ok=True)
         self.model_name = model_name
-        self._model = TextCrossEncoder(model_name=model_name, cache_dir=str(cache_dir),
+        self._model = TextCrossEncoder(model_name=model_name, cache_dir=str(cache),
                                        threads=4, providers=["CPUExecutionProvider"], cuda=False)
         description = next(item for item in TextCrossEncoder.list_supported_models()
                            if item["model"] == model_name)
